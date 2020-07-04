@@ -75,7 +75,7 @@ proxy-provider:
     proxies:
         type: http
         path: ./proxies.yaml
-        url: https://gfwsb.114514.best/sub?target=clashr&new_name=true&url=https%3A%2F%2Fjiang.netlify.app%2F&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&new_name=truehttps://gfwsb.114514.best/sub?target=clashr&new_name=true&url=https%3A%2F%2Fjiang.netlify.app%2F&insert=false&list=true&new_name=true
+        url: https://raw.githubusercontent.com/Daibogit/MySub/master/proxies.yaml
         interval: 3600
         health-check: 
             enable: true
