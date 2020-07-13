@@ -21,6 +21,12 @@ proxy-groups: ~
 rules: ~
 cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-profile-mixin: 
+  dns:
+    enable: true
+    listen: :53
+    nameserver:
+      - 8.8.8.8
 cfw-conn-break-strategy:
   proxy: none
   profile: true
