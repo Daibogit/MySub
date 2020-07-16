@@ -8,3 +8,6 @@ https://gfwsb.114514.best/sub?target=clashr&new_name=true&url=https%3A%2F%2Fv2ra
 
 网易云音乐解锁：
 https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/tree/master/Clash
+
+cfw的mmdb更新下载：
+https://github.com/alecthw/mmdb_china_ip_list
