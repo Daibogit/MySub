@@ -1,20 +1,24 @@
-# port of HTTP
+# https://github.com/Dreamacro/clash/wiki/configuration
+
+# Port of HTTP(S) proxy server on the local end
 port: 7890
 
-# port of SOCKS5
+# Port of SOCKS5 proxy server on the local end
 socks-port: 7891
 
-# (HTTP and SOCKS5 in one port)
-# mixed-port: 7890
+# Transparent proxy server port for Linux and macOS
+redir-port: 7892
 
-# redir port for Linux and macOS
-# redir-port: 7892
+# HTTP(S) and SOCKS5 server on the same port
+# mixed-port: 7890
 
 # authentication of local SOCKS5/HTTP(S) server
 # authentication:
 #  - "user1:pass1"
-#  - "user2:pass2
+#  - "user2:pass2"
 
+# Set to true to allow connections to local-end server from
+# other LAN IP addresses
 allow-lan: false
 
 # This is only applicable when `allow-lan` is `true`
@@ -164,25 +168,13 @@ proxies:
       # headers:
       #   custom: value
       
-# ssr
-  - name: "ssr"
-    type: ssr
-    server: server
-    port: 443
-    cipher: chacha20-ietf
-    password:  "password"
-    protocol: auth_aes128_sha1
-    protocolparam: 
-    obfs: tls1.2_ticket_auth
-    obfsparam: ssr.server.com
-    #udp: true
 # 多个节点将一个节点参数写一行，参数用符号隔开。
 # ,后不加空格也可以,:与-后有空格；每行末尾不要有空格！
 # 名称等参数不加""也可以。
 # 各组规则注意对齐。
 # 如果导入配置提示失败：查看是否符合如上要求；配置文件中emoji显示问号，点击它配合空格和删除键让它正常显示。
 # vmess 服务器地址与host地址由于加密和伪装协议参数，如none加密需要二者地址参数相同！
-# - {name: "俄罗斯", type: vmess, server: v5.v2ray.xyz, port: 443, uuid: bf0db402-c863-45c6-a7b2-5f872118ab31, alterId: 233, cipher: auto, udp: true, tls: true, network: ws, ws-path: /, ws-headers: {Host: v5.ssrsub.xyz}}
+
 # - {name: "🇸🇬 新加坡", type: vmess, server: xinjiapo.803.com, port: 443, uuid: 20ad9004-8823-3b4f-9f65-a4f07d2bb970, alterId: 4, cipher: auto, tls: false, udp: false, network: ws, ws-path: /ray, ws-headers: {Host: xinjiapo.803.com}}
 # - {name: "🇨🇳 香港", type: vmess, server: 45.54.2.38, port: 6120, uuid: 641ffa9f-60ec-4afe-81ce-f22daf3cbff9, alterId: 8, cipher: auto, tls: false}
 # - {name: "🇨🇳 台湾", type: "ssr", "server": "tw08.freexyz.best", "port": 20008, "password": "gaLgrz", "cipher": "chacha20-ietf", "obfs": "tls1.2_ticket_auth", "obfsparam": "35a1011210.microsoft.com", "protocol": "auth_aes128_sha1", "protocolparam": "11210:wBucUw"}      
@@ -247,6 +239,26 @@ proxies:
     #   - h2
     #   - http/1.1
     # skip-cert-verify: true
+
+  # ShadowsocksR
+  # The supported ciphers (encryption methods): all stream ciphers in ss
+  # The supported obfses:
+  #   plain http_simple http_post
+  #   random_head tls1.2_ticket_auth tls1.2_ticket_fastauth
+  # The supported supported protocols:
+  #   origin auth_sha1_v4 auth_aes128_md5
+  #   auth_aes128_sha1 auth_chain_a auth_chain_b  
+  - name: "ssr"
+    type: ssr
+    server: server
+    port: 443
+    cipher: chacha20-ietf
+    password: "password"
+    obfs: tls1.2_ticket_auth
+    protocol: auth_sha1_v4
+    # obfs-param: domain.tld
+    # protocol-param: "#"
+    # udp: true
 
 proxy-groups:
   # relay chains the proxies. proxies shall not contain a proxy-group. No UDP support.
