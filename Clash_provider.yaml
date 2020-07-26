@@ -1,135 +1,17 @@
 mixed-port: 7890
-redir-port: 7892
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
-dns:
-  enable: true
-  ipv6: false
-  listen: 0.0.0.0:1053
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 114.114.114.114
-    - https://doh.360.cn/dns-query
-    - https://dns.alidns.com/dns-query
-rule-providers:
-    Unbreak: 
-      type: http
-      behavior: classical
-      path: ./Unbreak.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
-      interval: 18000
-    Global: 
-      type: http
-      behavior: classical
-      path: ./Global.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
-      interval: 18000
-    China: 
-      type: http
-      behavior: classical
-      path: ./China.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
-      interval: 18000
-    Advertising: 
-      type: http
-      behavior: classical
-      path: ./Advertising.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
-      interval: 18000
-    Hijacking: 
-      type: http
-      behavior: classical
-      path: ./Hijacking.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
-      interval: 18000
-    Privacy: 
-      type: http
-      behavior: classical
-      path: ./Privacy.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
-      interval: 18000
-    Stream: 
-      type: http
-      behavior: classical
-      path: ./Stream.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
-      interval: 18000
-    StreamCN: 
-      type: http
-      behavior: classical
-      path: ./StreamCN.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
-      interval: 18000
-    YouTube: 
-      type: http
-      behavior: classical
-      path: ./YouTube.yaml
-      url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
-      interval: 18000
-proxy-provider:
-    proxies:
-        type: http
-        path: ./proxies.yaml
-        url: [节点URL，要转换Clash Provider格式]
-        interval: 3600
-        health-check: 
-            enable: true
-            url: http://captive.rixcloud.io/generate_204
-            interval: 300
-proxy-groups: 
-    - name: Mode
-      type: select
-      proxies:
-        - Auto
-        - DIRECT
-      use:
-        - proxies
-    - name: Auto
-      type: url-test
-      use:
-        - proxies
-      url: 'http://captive.rixcloud.io/generate_204'
+external-controller: 127.0.0.1:9090
+proxy-providers:
+  Trojan:
+    type: http
+    path: proxy-providers/Trojan.yaml
+    url: {{ getLink("/sub?target=clash&list=true&include=HK&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Ftrojan%2Fmaster%2FREADME.md") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
       interval: 300
-    - name: YouTube
-      type: select
-      use:
-        - proxies
-    - name: Direct
-      type: select
-      proxies:
-        - DIRECT
-        - Mode
-    - name: Final
-      type: select
-      proxies:
-        - Mode
-        - DIRECT
-rules: 
- - DOMAIN-SUFFIX,ip6-localhost,DIRECT
- - DOMAIN-SUFFIX,ip6-loopback,DIRECT
- - DOMAIN-SUFFIX,local,DIRECT
- - DOMAIN-SUFFIX,localhost,DIRECT
- - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
- - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
- - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
- - IP-CIDR6,::1/128,DIRECT,no-resolve
- - IP-CIDR6,fc00::/7,DIRECT,no-resolve
- - IP-CIDR6,fe80::/10,DIRECT,no-resolve
- - IP-CIDR6,fd00::/8,DIRECT,no-resolve
- - RULE-SET,Unbreak,DIRECT
- - RULE-SET,Advertising,REJECT
- - RULE-SET,Hijacking,REJECT
- - RULE-SET,Privacy,REJECT
- - RULE-SET,Stream,Mode
- - RULE-SET,Global,Mode
- - RULE-SET,StreamCN,Direct
- - RULE-SET,China,Direct
- - GEOIP,CN,Direct
- - MATCH,Final
+rule-providers: ~
+rules: ~
