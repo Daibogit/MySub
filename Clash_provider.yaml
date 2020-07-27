@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxy-providers:
-  Trojan:
+  HK:
     type: http
-    path: proxy-providers/Trojan.yaml
-    url: {{ getLink("/sub?target=clash&list=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Ftrojan%2Fmaster%2FREADME.md") }}
+    path: proxy-providers/HK.yaml
+    url: {{ getLink("/sub?target=clash&list=true&include=HK&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Ftrojan%2Fmaster%2FREADME.md") }}
     interval: 86400
     health-check:
       enable: true
