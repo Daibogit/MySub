@@ -27,10 +27,6 @@ cfw-profile-mixin:
     listen: :53
     nameserver:
       - 8.8.8.8
-cfw-conn-break-strategy:
-  proxy: none
-  profile: true
-  mode: false
 cfw-bypass-bak:
   - qq.com
   - music.163.com
