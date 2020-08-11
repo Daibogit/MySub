@@ -1,0 +1,17 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxy-providers:
+  HK:
+    type: http
+    path: proxy-providers/trojan1.yaml
+    url: {{ getLink("/sub?target=clash&list=true&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+rule-providers: ~
+rules: ~
