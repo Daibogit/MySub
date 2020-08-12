@@ -3,6 +3,9 @@
 https://acl4ssr.netlify.app/
 https://subcon.py6.pw/
 
+ACL4SSR规则：
+https://github.com/ACL4SSR/ACL4SSR/tree/master
+
 远程配置格式：
 https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fv2ray.banyunxiaoxi.ml%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
