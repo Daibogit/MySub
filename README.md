@@ -4,7 +4,7 @@ https://acl4ssr.netlify.app/
 https://subcon.py6.pw/
 
 远程配置格式：
-https://subcon.py6.pw/sub?target=clash&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true&url=https%3A%2F%2Fv2ray.banyunxiaoxi.ml%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini
+https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fv2ray.banyunxiaoxi.ml%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 Clash_provider远程配置格式：
 https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FProvider.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true&expand=false
