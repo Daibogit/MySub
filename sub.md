@@ -16,37 +16,35 @@ TG频道 @cnhumanright99
 仓库 https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
 
 订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcdp2020%2Fv2ray%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcdp2020%2Fv2ray%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 TG频道 @byxiaoxi
 订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fv2ray.banyunxiaoxi.ml%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fv2ray.banyunxiaoxi.ml%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 仓库 https://github.com/ugvf2009/Miles
 订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fjiang.netlify.app%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fjiang.netlify.app%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 仓库  https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 
 订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fssrsub%2Fssr%2Fmaster%2Fv2ray&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fssrsub%2Fssr%2Fmaster%2Fv2ray&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Ftrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Ftrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
-
-订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
-
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fnywz%2Fjichang%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fze951232161%2Fiplc%2Fmaster%2F1&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fnywz%2Fjichang%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
-https://skapi.cool/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fzhaotyue%2Fv2ray%2Fmaster%2Fvmess&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fze951232161%2Fiplc%2Fmaster%2F1&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
+订阅链接：
 https://skapi.cool/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fntkernel%2Flantern%2Fmaster%2Fvmess_base64.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 ssrtool主域名 (需要代理访问，但是永不变更，请牢记)：https://www.ssrshare.com
@@ -142,17 +140,17 @@ https://github.com/frainzy1477/clashrdev/releases
 下载：https://github.com/tindy2013/subconverter/releases
 本地：http://127.0.0.1:25500/sub?target=clash&url= 编码后的订阅
 
-在线：https://subcon.py6.pw/sub?target=clash&url= 编码后的订阅
+在线：https://subcon.dlj.tf/sub?target=clash&url= 编码后的订阅
 web版：https://subcon.py6.pw
 
 URL编码地址  http://www.urlencode.org/    
 特点：转换格式齐全，功能强大请查阅使用文档。
 
 在线版可以使用远程配置*.ini文件：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fwww.v2dy.co%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D239fdc0cd5ae351aa7487dd6609ea1ee&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FFallback.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fwww.v2dy.co%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D239fdc0cd5ae351aa7487dd6609ea1ee&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FFallback.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 Clash_provider远程配置格式：
-https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FProvider.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true&expand=false
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FProvider.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true&expand=false
 
 谷歌云专用，谷歌商店下载WireGuard。
 Trojan客户端  https://github.com/trojan-gfw/igniter/releases
@@ -177,7 +175,7 @@ Quantumult X 格式节点转换
 隐私问题，自行考虑
 - https://skapi.cool/  原地址 - https://acl4ssr.netlify.com
 - https://sub-web.netlify.com/
-- https://subcon.py6.pw/
+- https://subcon.dlj.tf/
 更多定制参数（emoji，排序，重命名等）可参考 以下 API
 - https://github.com/KOP-XIAO/QuantumultX-Surge-API
 - https://github.com/tindy2013/subconverter 
