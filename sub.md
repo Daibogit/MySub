@@ -145,6 +145,9 @@ URL编码地址  http://www.urlencode.org/
 在线版可以使用远程配置*.ini文件：
 https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fwww.v2dy.co%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D239fdc0cd5ae351aa7487dd6609ea1ee&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FFallback.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
+Clash_provider远程配置格式：
+https://subcon.py6.pw/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FProvider.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true&expand=false
+
 谷歌云专用，谷歌商店下载WireGuard。
 Trojan客户端  https://github.com/trojan-gfw/igniter/releases
 igniter改版https://github.com/oasiscifr/igniter/releases
