@@ -2,7 +2,6 @@
 在线托管地址：
 https://acl4ssr.netlify.app/
 https://subcon.dlj.tf/
-https://skapi.cool/
 
 ACL4SSR规则：
 https://github.com/ACL4SSR/ACL4SSR/tree/master
