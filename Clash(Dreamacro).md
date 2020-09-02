@@ -172,12 +172,11 @@ proxies:
 # ,后不加空格也可以,:与-后有空格；每行末尾不要有空格！
 # 名称等参数不加""也可以。
 # 各组规则注意对齐。
-# 如果导入配置提示失败：查看是否符合如上要求；配置文件中emoji显示问号，点击它配合空格和删除键让它正常显示。
 # vmess 服务器地址与host地址由于加密和伪装协议参数，如none加密需要二者地址参数相同！
 
 # - {name: "🇸🇬 新加坡", type: vmess, server: xinjiapo.803.com, port: 443, uuid: 20ad9004-8823-3b4f-9f65-a4f07d2bb970, alterId: 4, cipher: auto, tls: false, udp: false, network: ws, ws-path: /ray, ws-headers: {Host: xinjiapo.803.com}}
 # - {name: "🇨🇳 香港", type: vmess, server: 45.54.2.38, port: 6120, uuid: 641ffa9f-60ec-4afe-81ce-f22daf3cbff9, alterId: 8, cipher: auto, tls: false}
-# - {name: "🇨🇳 台湾", type: "ssr", "server": "tw08.freexyz.best", "port": 20008, "password": "gaLgrz", "cipher": "chacha20-ietf", "obfs": "tls1.2_ticket_auth", "obfsparam": "35a1011210.microsoft.com", "protocol": "auth_aes128_sha1", "protocolparam": "11210:wBucUw"}      
+# - {name: "🇨🇳 台湾", type: "ssr", "server": "tw08.freexyz.best", "port": 20008, "password": "gaLgrz", "cipher": "chacha20-ietf", "obfs": "tls1.2_ticket_auth", "obfs-param": "35a1011210.microsoft.com", "protocol": "auth_aes128_sha1", "protocol-param": "11210:wBucUw"}      
 
   # vmess
   # cipher support auto/aes-128-gcm/chacha20-poly1305/none
