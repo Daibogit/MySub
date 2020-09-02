@@ -44,7 +44,7 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fnywz%2Fjic
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fze951232161%2Fiplc%2Fmaster%2F1&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
-https://skapi.cool/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fntkernel%2Flantern%2Fmaster%2Fvmess_base64.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fntkernel%2Flantern%2Fmaster%2Fvmess_base64.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fluohao10001%2Fssssrrr%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
@@ -190,7 +190,6 @@ Quantumult X 格式节点转换
 
 1️⃣  在线转换API：
 隐私问题，自行考虑
-- https://skapi.cool/
 - https://acl4ssr.netlify.com
 - https://sub-web.netlify.com/
 - https://subcon.dlj.tf/
