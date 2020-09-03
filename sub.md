@@ -67,6 +67,8 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.c
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanabraham%2Fsubscribe%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
+订阅链接：
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fiwxf.netlify.app&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 ssrtool主域名 (需要代理访问，但是永不变更，请牢记)：https://www.ssrshare.com
 小工具主域名https://www.ssrtool.com
 
