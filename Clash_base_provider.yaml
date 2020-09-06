@@ -77,7 +77,7 @@ proxy-providers:
   RU:
     type: http
     path: proxy-providers/RU.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=RU
+    url: {{ getLink("/sub?target=clash&url=https://proxy.tgbot.co/clash/proxies?c=RU") }}
     interval: 86400
     health-check:
       enable: true
@@ -87,7 +87,7 @@ proxy-providers:
   Netflix:
     type: http
     path: proxy-providers/Netflix.yaml
-    url: https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=
+    url: {{ getLink("/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=") }}
   NeteasyMusic:
     type: http
     path: proxy-providers/NeteasyMusic.yaml
