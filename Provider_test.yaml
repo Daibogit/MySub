@@ -1,0 +1,467 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxy-providers:
+  trojan_test:
+    type: http
+    path: proxy-providers/trojan_test.yaml
+    url: https://subcon.dlj.tf/sub?target=clash&list=true&url=https%3A%2F%2Fraw.githubusercontent.com%2FAllenPryor%2FTrojan%2Fmaster%2FREADME.md
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  NeteasyMusic:
+    type: http
+    path: proxy-providers/NeteasyMusic.yaml
+    url: https://raw.githubusercontent.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/master/Clash/Proxy/NeteaseMusic.yaml
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+rule-providers:
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
+    path: ./providers/rule-provider_NetEaseMusic.yaml
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    path: ./providers/rule-provider_LocalAreaNetwork.yaml
+  GoogleFCM:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml
+    path: ./providers/rule-provider_GoogleFCM.yaml
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml
+    path: ./providers/rule-provider_GoogleCN.yaml
+  OneDrive:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml
+    path: ./providers/rule-provider_OneDrive.yaml
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
+    path: ./providers/rule-provider_Apple.yaml
+  Steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml
+    path: ./providers/rule-provider_Steam.yaml
+  Epic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml
+    path: ./providers/rule-provider_Epic.yaml
+  Sony:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml
+    path: ./providers/rule-provider_Sony.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml
+    path: ./providers/rule-provider_Telegram.yaml
+  Facebook:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Facebook.yaml
+    path: ./providers/rule-provider_Facebook.yaml
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Twitter.yaml
+    path: ./providers/rule-provider_Twitter.yaml
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml
+    path: ./providers/rule-provider_YouTube.yaml
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml
+    path: ./providers/rule-provider_Netflix.yaml
+  AmazonIp:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AmazonIp.yaml
+    path: ./providers/rule-provider_AmazonIp.yaml
+  Bahamut:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml
+    path: ./providers/rule-provider_Bahamut.yaml
+  StreamingSE:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    path: ./providers/rule-provider_StreamingSE.yaml
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml
+    path: ./providers/rule-provider_ProxyMedia.yaml
+  IqiyiHMT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/IqiyiHMT.yaml
+    path: ./providers/rule-provider_IqiyiHMT.yaml
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml
+    path: ./providers/rule-provider_BilibiliHMT.yaml
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    path: ./providers/rule-provider_ProxyGFWlist.yaml
+  ChinaDomain:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
+    path: ./providers/rule-provider_ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml
+    path: ./providers/rule-provider_ChinaCompanyIp.yaml
+  Download:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml
+    path: ./providers/rule-provider_Download.yaml
+rules:
+  - RULE-SET,NetEaseMusic,🎵 网易云音乐
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,Facebook,📼 脸书推特
+  - RULE-SET,Twitter,📼 脸书推特
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,AmazonIp,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,StreamingSE,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,IqiyiHMT,🌏 出海媒体
+  - RULE-SET,BilibiliHMT,🌏 出海媒体
+  - RULE-SET,ProxyGFWlist,🔰 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🔰 节点选择
+proxies:
+  - {name: 🐷e, server: 012.719401146.online, port: 80, type: vmess, uuid: 25d1f5c2-acf5-4430-91e3-47f20738ef2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 012.719401146.online}}
+  - {name: 🐷12, server: 157.52.168.12, port: 21568, type: vmess, uuid: 5314aa06-2a03-4e5c-93bb-6a6ae585c7b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🐷248, server: 45.144.2.248, port: 21790, type: vmess, uuid: bd3171d0-0230-4d49-b66d-c1d7be2fd9ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🐷240, server: 45.147.200.240, port: 60429, type: vmess, uuid: 3a04da28-9632-4bae-9b35-dc9a9f56ac26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🐷84, server: 51.158.150.84, port: 49031, type: vmess, uuid: 3f09cac8-53ab-4a6b-ba31-09b85910c8f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 51.158.150.84}}
+  - {name: "🇺🇲 [iwxf]applemusics.tk", server: applemusics.tk, port: 443, type: vmess, uuid: 1307ac50-eb57-11ea-b431-560002f33094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /BZpxY8Tj/, ws-headers: {Host: applemusics.tk}}
+  - {name: 🐷, server: auto.freev2.top, port: 49977, type: vmess, uuid: 3b1e3455-19bc-4913-b5cd-cc8c83e7dd4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[iwxf]burgerkinggood.ml", server: burgerkinggood.ml, port: 443, type: vmess, uuid: 60ec79da-e767-11ea-806d-560002f1940d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /g5ZkWRF6/, ws-headers: {Host: burgerkinggood.ml}}
+  - {name: "[iwxf]canongood.ml", server: canongood.ml, port: 443, type: vmess, uuid: f26b53de-eb5b-11ea-9a88-560002f33408, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /10bdIt3e/, ws-headers: {Host: canongood.ml}}
+  - {name: "[iwxf]ccpisdevil.ml", server: ccpisdevil.ml, port: 443, type: vmess, uuid: e4005174-e76d-11ea-ad5f-560002f197e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /SV4KZY3N/, ws-headers: {Host: ccpisdevil.ml}}
+  - {name: "[iwxf]cdp2019.ml", server: cdp2019.ml, port: 443, type: vmess, uuid: d4462b24-e76c-11ea-a9e2-560002f19775, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HiKXoVrL/, ws-headers: {Host: cdp2019.ml}}
+  - {name: "[iwxf]cdp2019.tk", server: cdp2019.tk, port: 443, type: vmess, uuid: 78861f1e-e777-11ea-ae11-560002f19d30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Yp4Me1Gk/, ws-headers: {Host: cdp2019.tk}}
+  - {name: "🇨🇳 [iwxf]chinahr.ml", server: chinahr.ml, port: 443, type: vmess, uuid: ef9ae6a0-e76a-11ea-902e-560002f1965f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /alzs6VNP/, ws-headers: {Host: chinahr.ml}}
+  - {name: "🇨🇳 [iwxf]chinahumanr.ml", server: chinahumanr.ml, port: 443, type: vmess, uuid: 5635427a-eb53-11ea-ba48-560002f32f4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /x1V0QfKh/, ws-headers: {Host: chinahumanr.ml}}
+  - {name: "🇨🇳 [iwxf]chinahumanr.tk", server: chinahumanr.tk, port: 443, type: vmess, uuid: c52a916c-e775-11ea-9571-560002f19bed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Birha0PL/, ws-headers: {Host: chinahumanr.tk}}
+  - {name: "[iwxf]fivedemands.ml", server: fivedemands.ml, port: 443, type: vmess, uuid: eb12c518-e778-11ea-975b-560002f19e2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Iv84jt5l/, ws-headers: {Host: fivedemands.ml}}
+  - {name: "🇺🇲 [iwxf]geniusbar.tk", server: geniusbar.tk, port: 443, type: vmess, uuid: d3ea877a-eb5d-11ea-bfa9-560002f334c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jhTDlMOY/, ws-headers: {Host: geniusbar.tk}}
+  - {name: 🐷 2, server: h4.coding996.com, port: 443, type: vmess, uuid: e8f9f061-c481-4c4a-8e7a-68cd062c1bb9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: h4.coding996.com}}
+  - {name: "[iwxf]milkgogo.cf", server: milkgogo.cf, port: 443, type: vmess, uuid: df77871e-e76b-11ea-a612-560002f196dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ZwqMXbxQ/, ws-headers: {Host: milkgogo.cf}}
+  - {name: "[iwxf]milkgogo.tk", server: milkgogo.tk, port: 443, type: vmess, uuid: f2f0c0ac-eb59-11ea-9df2-560002f33329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ioa1EOBk/, ws-headers: {Host: milkgogo.tk}}
+  - {name: "[iwxf]milkgogo.xyz", server: milkgogo.xyz, port: 443, type: vmess, uuid: adf38992-e773-11ea-afd5-560002f19afd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /V0Dpw6Me/, ws-headers: {Host: milkgogo.xyz}}
+  - {name: "[iwxf]notoneless.ml", server: notoneless.ml, port: 443, type: vmess, uuid: ba3babf0-e771-11ea-adff-560002f199f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /gG6rec84/, ws-headers: {Host: notoneless.ml}}
+  - {name: "[iwxf]pampersvk.tk", server: pampersvk.tk, port: 443, type: vmess, uuid: 9b3e0a1c-e772-11ea-9eaa-560002f19a4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /wFE5V6pW/, ws-headers: {Host: pampersvk.tk}}
+  - {name: "[iwxf]rocketgogo.ml", server: rocketgogo.ml, port: 443, type: vmess, uuid: 78d7191e-e777-11ea-b6e9-560002f198e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Bxl2jzZY/, ws-headers: {Host: rocketgogo.ml}}
+  - {name: 🐷 3, server: sgp01.node.1ms.xyz, port: 30000, type: vmess, uuid: eca40295-0b16-3da2-baf0-c82bef5fe5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /exsp, ws-headers: {Host: sgp01.node.1ms.xyz}}
+  - {name: 🐷 4, server: v2-01.ssrsub.xyz, port: 443, type: vmess, uuid: e33ef6da-face-4562-b869-2409d266abeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2-01.ssrsub.xyz}}
+  - {name: 🐷 5, server: v2-03.ssrsub.xyz, port: 443, type: vmess, uuid: 206ffdbe-08f0-42f9-8ac8-0e676859905d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2-03.ssrsub.xyz}}
+  - {name: 🐷 6, server: v2-04.ssrsub.xyz, port: 443, type: vmess, uuid: e45ebb99-cb9f-48b8-8c36-38d6dc246924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.xyz}}
+  - {name: 🐷 7, server: v2-05.ssrsub.xyz, port: 443, type: vmess, uuid: ac2bedfe-b317-4f30-834f-cc0e5cc8f598, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2-05.ssrsub.xyz}}
+  - {name: 🐷 8, server: v2-06.ssrsub.xyz, port: 443, type: vmess, uuid: 59ee7a4c-0d8e-462b-a75a-3d66071db8c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.xyz}}
+  - {name: 🐷 9, server: v2-07.ssrsub.xyz, port: 443, type: vmess, uuid: 97f03815-331d-477b-8fae-46f865218e85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2-07.ssrsub.xyz}}
+  - {name: 🐷 10, server: v2-08.ssrsub.xyz, port: 443, type: vmess, uuid: 827de4b3-e94b-469f-ad7b-7d20547d15c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /92d3c5/, ws-headers: {Host: v2-08.ssrsub.xyz}}
+  - {name: "[iwxf]weneedfreedom.ml", server: weneedfreedom.ml, port: 443, type: vmess, uuid: 52cb5508-e2b0-11ea-8863-560002efc9af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /IRpTfexs/, ws-headers: {Host: weneedfreedom.ml}}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 🚀 手动切换
+    type: select
+    use:
+      - trojan_test
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🐷e
+      - 🐷12
+      - 🐷248
+      - 🐷240
+      - 🐷84
+      - 🇺🇲 [iwxf]applemusics.tk
+      - 🐷
+      - "[iwxf]burgerkinggood.ml"
+      - "[iwxf]canongood.ml"
+      - "[iwxf]ccpisdevil.ml"
+      - "[iwxf]cdp2019.ml"
+      - "[iwxf]cdp2019.tk"
+      - 🇨🇳 [iwxf]chinahr.ml
+      - 🇨🇳 [iwxf]chinahumanr.ml
+      - 🇨🇳 [iwxf]chinahumanr.tk
+      - "[iwxf]fivedemands.ml"
+      - 🇺🇲 [iwxf]geniusbar.tk
+      - 🐷 2
+      - "[iwxf]milkgogo.cf"
+      - "[iwxf]milkgogo.tk"
+      - "[iwxf]milkgogo.xyz"
+      - "[iwxf]notoneless.ml"
+      - "[iwxf]pampersvk.tk"
+      - "[iwxf]rocketgogo.ml"
+      - 🐷 3
+      - 🐷 4
+      - 🐷 5
+      - 🐷 6
+      - 🐷 7
+      - 🐷 8
+      - 🐷 9
+      - 🐷 10
+      - "[iwxf]weneedfreedom.ml"
+  - name: 💞 故障切换
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 🎵 网易云音乐
+    type: select
+    use:
+      - NeteasyMusic
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 📼 脸书推特
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+      - 🎥 奈飞视频
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - 🎥 奈飞故障切换
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - 🇹🇼 台湾故障
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+      - 🎥 奈飞视频
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+  - name: 🌏 出海媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+  - name: 🇭🇰 香港故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇹🇼 台湾故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇸🇬 新加坡故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇯🇵 日本故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇺🇸 美国故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇷🇺 俄罗斯故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🎥 奈飞故障切换
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
