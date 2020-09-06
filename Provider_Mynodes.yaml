@@ -1,0 +1,295 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxy-providers:
+  Mynodes:
+    type: http
+    path: proxy-providers/Mynodes.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=CN,TW,SG,CH,DE,GB
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  NeteasyMusic:
+    type: http
+    path: proxy-providers/NeteasyMusic.yaml
+    url: https://raw.githubusercontent.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/master/Clash/Proxy/NeteaseMusic.yaml
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+rule-providers:
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
+    path: ./providers/rule-provider_NetEaseMusic.yaml
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    path: ./providers/rule-provider_LocalAreaNetwork.yaml
+  GoogleFCM:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml
+    path: ./providers/rule-provider_GoogleFCM.yaml
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml
+    path: ./providers/rule-provider_GoogleCN.yaml
+  OneDrive:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml
+    path: ./providers/rule-provider_OneDrive.yaml
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
+    path: ./providers/rule-provider_Apple.yaml
+  Steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml
+    path: ./providers/rule-provider_Steam.yaml
+  Epic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml
+    path: ./providers/rule-provider_Epic.yaml
+  Sony:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml
+    path: ./providers/rule-provider_Sony.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml
+    path: ./providers/rule-provider_Telegram.yaml
+  Facebook:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Facebook.yaml
+    path: ./providers/rule-provider_Facebook.yaml
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Twitter.yaml
+    path: ./providers/rule-provider_Twitter.yaml
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml
+    path: ./providers/rule-provider_YouTube.yaml
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml
+    path: ./providers/rule-provider_Netflix.yaml
+  AmazonIp:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AmazonIp.yaml
+    path: ./providers/rule-provider_AmazonIp.yaml
+  Bahamut:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml
+    path: ./providers/rule-provider_Bahamut.yaml
+  StreamingSE:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    path: ./providers/rule-provider_StreamingSE.yaml
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml
+    path: ./providers/rule-provider_ProxyMedia.yaml
+  IqiyiHMT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/IqiyiHMT.yaml
+    path: ./providers/rule-provider_IqiyiHMT.yaml
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml
+    path: ./providers/rule-provider_BilibiliHMT.yaml
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    path: ./providers/rule-provider_ProxyGFWlist.yaml
+  ChinaDomain:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
+    path: ./providers/rule-provider_ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml
+    path: ./providers/rule-provider_ChinaCompanyIp.yaml
+  Download:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml
+    path: ./providers/rule-provider_Download.yaml
+rules:
+  - RULE-SET,NetEaseMusic,🎵 网易云音乐
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,Facebook,📼 脸书推特
+  - RULE-SET,Twitter,📼 脸书推特
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,AmazonIp,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,StreamingSE,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,IqiyiHMT,🌏 出海媒体
+  - RULE-SET,BilibiliHMT,🌏 出海媒体
+  - RULE-SET,ProxyGFWlist,🔰 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🔰 节点选择
+proxies: []
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 💞 故障切换
+      - 🎯 全球直连
+    use:
+      - Mynodes
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    use:
+      - Mynodes
+  - name: 💞 故障切换
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - Mynodes
+  - name: 🎵 网易云音乐
+    type: select
+    use:
+      - NeteasyMusic
+    proxies:
+      - 🎯 全球直连
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+    use:
+      - Mynodes
+  - name: 📼 脸书推特
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+    use:
+      - Mynodes
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+    use:
+      - Mynodes
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+    use:
+      - Mynodes
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+    use:
+      - Mynodes
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+    use:
+      - Mynodes
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - ♻️ 自动选择
+    use:
+      - Mynodes
+  - name: 🌏 出海媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+    use:
+      - Mynodes
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+    use:
+      - Mynodes
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+    use:
+      - Mynodes
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+    use:
+      - Mynodes
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+    use:
+      - Mynodes
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+    use:
+      - Mynodes
