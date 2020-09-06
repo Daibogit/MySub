@@ -13,7 +13,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   HK:
     type: http
     path: proxy-providers/HK.yaml
@@ -23,7 +22,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   TW:
     type: http
     path: proxy-providers/TW.yaml
@@ -33,7 +31,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   SG:
     type: http
     path: proxy-providers/SG.yaml
@@ -43,7 +40,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   JP:
     type: http
     path: proxy-providers/JP.yaml
@@ -53,7 +49,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   US:
     type: http
     path: proxy-providers/US.yaml
@@ -63,7 +58,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   RU:
     type: http
     path: proxy-providers/RU.yaml
@@ -73,7 +67,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
   Netflix:
     type: http
     path: proxy-providers/Netflix.yaml
