@@ -17,6 +17,11 @@ proxy-providers:
     type: http
     path: proxy-providers/HK.yaml
     url: {{ getLink("/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=HK") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   TW:
     type: http
     path: proxy-providers/TW.yaml
@@ -30,18 +35,38 @@ proxy-providers:
     type: http
     path: proxy-providers/SG.yaml
     url: {{ getLink("/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=SG") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   JP:
     type: http
     path: proxy-providers/JP.yaml
     url: {{ getLink("/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=JP") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   US:
     type: http
     path: proxy-providers/US.yaml
     url: {{ getLink("/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=US") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   RU:
     type: http
     path: proxy-providers/RU.yaml
     url: {{ getLink("/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=RU") }}
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   NeteasyMusic:
     type: http
     path: proxy-providers/NeteasyMusic.yaml
