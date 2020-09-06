@@ -328,12 +328,16 @@ proxy-groups:
       - 🚀 手动切换
       - 🎯 全球直连
       - 🎥 奈飞故障切换
+    use:
+      - Netflix
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇹🇼 台湾故障
+    use:
+      - TW
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -369,6 +373,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🇭🇰 香港故障
       - 🇹🇼 台湾故障
+    use:
+      - HK
+      - TW
   - name: 📢 谷歌FCM
     type: select
     proxies:
