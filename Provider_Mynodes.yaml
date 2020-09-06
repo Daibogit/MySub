@@ -13,6 +13,76 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+proxy-providers:
+  HK:
+    type: http
+    path: proxy-providers/HK.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=HK
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-providers:
+  TW:
+    type: http
+    path: proxy-providers/TW.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=TW
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-providers:
+  SG:
+    type: http
+    path: proxy-providers/SG.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=SG
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-providers:
+  JP:
+    type: http
+    path: proxy-providers/JP.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=JP
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-providers:
+  US:
+    type: http
+    path: proxy-providers/US.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=US
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-providers:
+  RU:
+    type: http
+    path: proxy-providers/RU.yaml
+    url: https://proxy.tgbot.co/clash/proxies?c=RU
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-providers:
+  Netflix:
+    type: http
+    path: proxy-providers/Netflix.yaml
+    url: https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Farnietie%2Ftrojan%2Fmaster%2FREADME.md&new_name=true&list=true&include=Netflix
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   NeteasyMusic:
     type: http
     path: proxy-providers/NeteasyMusic.yaml
@@ -176,10 +246,20 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 💞 故障切换
+      - 🚀 手动切换
       - 🎯 全球直连
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+  - name: 🚀 手动切换
+    type: select
     use:
       - Mynodes
+      - Netflix
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -191,105 +271,203 @@ proxy-groups:
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
-    use:
-      - Mynodes
+    proxies:
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: 🎵 网易云音乐
     type: select
     use:
       - NeteasyMusic
     proxies:
       - 🎯 全球直连
+      - 🚀 手动切换
   - name: 📲 电报消息
     type: select
     proxies:
       - 🔰 节点选择
+      - 🚀 手动切换
       - 🎯 全球直连
       - ♻️ 自动选择
-    use:
-      - Mynodes
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: 📼 脸书推特
     type: select
     proxies:
       - 🔰 节点选择
+      - 🚀 手动切换
       - 🎯 全球直连
       - ♻️ 自动选择
-    use:
-      - Mynodes
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: 📹 油管视频
     type: select
     proxies:
       - 🔰 节点选择
+      - 🚀 手动切换
       - 🎯 全球直连
       - ♻️ 自动选择
-    use:
-      - Mynodes
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+      - 🎥 奈飞视频
   - name: 🎥 奈飞视频
     type: select
     proxies:
       - 🔰 节点选择
+      - 🚀 手动切换
       - 🎯 全球直连
-    use:
-      - Mynodes
+      - 🎥 奈飞故障切换
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-    use:
-      - Mynodes
+      - 🇹🇼 台湾故障
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
+      - 🚀 手动切换
       - 🎯 全球直连
       - ♻️ 自动选择
-    use:
-      - Mynodes
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
+      - 🎥 奈飞视频
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🚀 手动切换
       - 🔰 节点选择
       - ♻️ 自动选择
-    use:
-      - Mynodes
+      - 💞 故障切换
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
   - name: 🌏 出海媒体
     type: select
     proxies:
       - 🎯 全球直连
-    use:
-      - Mynodes
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🎯 全球直连
+      - 🚀 手动切换
       - 🔰 节点选择
-    use:
-      - Mynodes
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - 🎯 全球直连
+      - 🚀 手动切换
       - 🔰 节点选择
-    use:
-      - Mynodes
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
+      - 🚀 手动切换
       - 🔰 节点选择
-    use:
-      - Mynodes
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: 🎮 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
+      - 🚀 手动切换
       - 🔰 节点选择
-    use:
-      - Mynodes
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+      - 🇸🇬 新加坡故障
+      - 🇯🇵 日本故障
+      - 🇺🇸 美国故障
+      - 🇷🇺 俄罗斯故障
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+      - 🚀 手动切换
+  - name: 🇭🇰 香港故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
     use:
-      - Mynodes
+      - HK
+  - name: 🇹🇼 台湾故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - TW
+  - name: 🇸🇬 新加坡故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - SG
+  - name: 🇯🇵 日本故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - JP
+  - name: 🇺🇸 美国故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - US
+  - name: 🇷🇺 俄罗斯故障
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - RU
+  - name: 🎥 奈飞故障切换
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - Netflix
