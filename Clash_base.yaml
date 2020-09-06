@@ -16,17 +16,23 @@ dns:
     - 114.114.114.114
     - https://doh.360.cn/dns-query
     - https://dns.alidns.com/dns-query
+mixin:
+  dns:
+    enable: true
+    listen: :53
+    nameserver:
+      - 223.5.5.5
+      - 101.6.6.6
+      - 119.29.29.29
+      - 8.8.8.8
+      - 114.114.114.114
+      - 8.8.4.4
+      - 1.1.1.1
 proxies: ~
 proxy-groups: ~
 rules: ~
 cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
-cfw-profile-mixin: 
-  dns:
-    enable: true
-    listen: :53
-    nameserver:
-      - 8.8.8.8
 cfw-bypass-bak:
   - qq.com
   - music.163.com
