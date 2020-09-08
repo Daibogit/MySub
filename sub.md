@@ -83,6 +83,8 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.c
 
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FDiangGen%2Fmylinks%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+订阅链接：
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fjack911huang%2FV2J%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 Clash节点Provider配置
 https://github.com/dragonZ663/nodesList_dragonZ663
