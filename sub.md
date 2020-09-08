@@ -8,7 +8,7 @@ ssr订阅地址：
 公益机场  https://t.me/vfucloud
 
 免费账号地址：
-可以在开源项目托管网站  https://github.com/  直接搜索v2ray或ssr或trojan或iplc查找。（翻墙后用google引擎搜索也可）
+可以在开源项目托管网站  https://github.com/  直接搜索v2ray或ssr或trojan或iplc或订阅可查找。（翻墙后用google引擎搜索也可）
 现成的：
 https://lncn.org/  （要翻墙，三五天更新）
 
