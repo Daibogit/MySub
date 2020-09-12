@@ -12,6 +12,31 @@ ssr订阅地址：
 现成的：
 https://lncn.org/  （要翻墙，三五天更新）
 
+@peekfun 托管配置，详细可以挂代理访问https://proxy.tgbot.co
+
+Clash
+Clash配置文件：https://proxy.tgbot.co/clash/config 一键导入
+
+Clash proxy-provider(Shadowrocket添加订阅方式可用)：https://proxy.tgbot.co/clash/proxies
+
+筛选代理类型：https://proxy.tgbot.co/clash/proxies?type=ss,ssr,vmess
+
+筛选国家：https://proxy.tgbot.co/clash/proxies?c=HK,TW,US&nc=JP （c为需要的国家，nc为不需要的国家）
+
+Surge
+Surge配置文件：https://proxy.tgbot.co/surge/config 一键导入
+
+Surge proxy list：https://proxy.tgbot.co/surge/proxies
+
+订阅链接
+ss的json链接：https://proxy.tgbot.co/ss/sub
+
+ss的sip002链接：https://proxy.tgbot.co/sip002/sub
+
+ssr订阅链接：https://proxy.tgbot.co/ssr/sub
+
+vmess订阅链接：https://proxy.tgbot.co/vmess/sub
+
 TG频道 @cnhumanright99
 仓库 https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
 
