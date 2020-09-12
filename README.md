@@ -3,6 +3,34 @@
 https://acl4ssr.netlify.app/
 https://subcon.dlj.tf/
 
+现成托管，挂代理访问
+https://proxy.tgbot.co
+
+Clash
+Clash配置文件：https://proxy.tgbot.co/clash/config 一键导入
+
+Clash proxy-provider(Shadowrocket添加订阅方式可用)：https://proxy.tgbot.co/clash/proxies
+
+筛选代理类型：https://proxy.tgbot.co/clash/proxies?type=ss,ssr,vmess
+
+筛选国家：https://proxy.tgbot.co/clash/proxies?c=HK,TW,US&nc=JP （c为需要的国家，nc为不需要的国家）
+
+
+Surge
+Surge配置文件：https://proxy.tgbot.co/surge/config 一键导入
+
+Surge proxy list：https://proxy.tgbot.co/surge/proxies
+
+
+订阅链接
+ss的json链接：https://proxy.tgbot.co/ss/sub
+
+ss的sip002链接：https://proxy.tgbot.co/sip002/sub
+
+ssr订阅链接：https://proxy.tgbot.co/ssr/sub
+
+vmess订阅链接：https://proxy.tgbot.co/vmess/sub
+
 ACL4SSR规则：
 https://github.com/ACL4SSR/ACL4SSR/tree/master
 
