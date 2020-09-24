@@ -91,6 +91,9 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.c
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fiwxf.netlify.app&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fguoqing1977%2Fv2ray%2Fraw%2Fmaster%2Fv2ray&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fhuangbinyu1987%2FALL_V2RAY%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
