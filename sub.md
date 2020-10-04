@@ -12,31 +12,6 @@ ssr订阅地址：
 现成的：
 https://lncn.org/  （要翻墙，三五天更新）
 
-@peekfun 托管配置，详细可以挂代理访问https://proxy.tgbot.co
-
-Clash
-Clash配置文件：https://proxy.tgbot.co/clash/config 一键导入
-
-Clash proxy-provider(Shadowrocket添加订阅方式可用)：https://proxy.tgbot.co/clash/proxies
-
-筛选代理类型：https://proxy.tgbot.co/clash/proxies?type=ss,ssr,vmess
-
-筛选国家：https://proxy.tgbot.co/clash/proxies?c=HK,TW,US&nc=JP （c为需要的国家，nc为不需要的国家）
-
-Surge
-Surge配置文件：https://proxy.tgbot.co/surge/config 一键导入
-
-Surge proxy list：https://proxy.tgbot.co/surge/proxies
-
-订阅链接
-ss的json链接：https://proxy.tgbot.co/ss/sub
-
-ss的sip002链接：https://proxy.tgbot.co/sip002/sub
-
-ssr订阅链接：https://proxy.tgbot.co/ssr/sub
-
-vmess订阅链接：https://proxy.tgbot.co/vmess/sub
-
 TG频道 @cnhumanright99
 仓库 https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
 
@@ -79,6 +54,7 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.c
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fzzx%2FV2ray%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
+订阅链接vip443
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2F13210541230%2Fsubscribe%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接:
@@ -90,7 +66,7 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.c
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fiwxf.netlify.app&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
-订阅链接：
+订阅链接443：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fguoqing1977%2Fv2ray%2Fraw%2Fmaster%2Fv2ray&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
@@ -98,6 +74,9 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fhuangbinyu
 
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fjunjiexia1987%2Fvmess%2Fraw%2Fmaster%2FREADME.md%7Chttps%3A%2F%2Fgithub.com%2Fjunjiexia1987%2Fssr%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+订阅链接
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Foier-byh%2Ffreeproxy%2Fmain%2Fall.sub&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fiam57%2F57v2%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
@@ -107,20 +86,39 @@ https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.c
 
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FDiangGen%2Fmylinks%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
-订阅链接：
+订阅链接443：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fjack911huang%2FV2J%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Fv2ray%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
+订阅链接
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fliujvfeng%2Fv2ray%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
 订阅链接：
 https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhdnwct%2Ftrojan%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+订阅链接：
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcogutt%2FfreeV2ray%2Fmaster%2Fv2raysub&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+ss订阅连接：
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftianchixia%2Fss%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+订阅链接
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftianchixia%2Fhttps%2Fmaster%2FV2.txt%7C&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
+
+订阅链接
+https://subcon.dlj.tf/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fliujvfeng%2Fv2ray%2Fraw%2Fmaster%2FREADME.md&config=https%3A%2F%2Fraw.githubusercontent.com%2FDaibogit%2FMySub%2Fmaster%2FTest.ini&emoji=true&list=false&sort=false&udp=false&tfo=false&scv=false&append_type=false&fdn=true&new_name=true
 
 Clash节点Provider配置
 https://github.com/dragonZ663/nodesList_dragonZ663
 
 Clash现成yaml配置：
 https://raw.githubusercontent.com/mengda1027/v2rayTrojanSub/master/config_free.yaml
+
+https://raw.githubusercontent.com/cogutt/freeClash/raw/master/clashsub
+
+https://raw.githubusercontent.com/shunfengziyuan/DY-Clash/blob/main/clash%E8%8A%82%E7%82%B9%E6%96%87%E4%BB%B6.yml
 
 vmess链接节点：
 https://github.com/lstl2/v2ray/blob/master/node.txt
