@@ -3,6 +3,8 @@ redir-port: 7892
 allow-lan: true
 mode: Rule
 log-level: info
+bind-address: '*'
+ipv6: false
 external-controller: 0.0.0.0:9090
 dns:
   enable: true
