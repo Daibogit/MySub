@@ -173,7 +173,7 @@ https://github.com/shadowsocksrr
 SSRR也停止维护后 
 https://github.com/HMBSbige
 SSRRAY添加支持（ss+ssr+v2ray+trojan） https://github.com/xxf098/shadowsocksr-v2ray-android/releases
-V2rayNG客户端（socks5+ss+v2ray）
+V2rayNG客户端（socks5+ss+v2ray+trojan）
 https://github.com/2dust/v2rayNG/releases
 v2rayN魔改版Qv2ray（socks5+ss+ssr+v2ray+trojan）  https://github.com/Qv2ray/Qv2ray/releases
 kitsunebi-android  (直接谷歌商店下载)
