@@ -40,20 +40,31 @@ dns:
 mixin:
   dns:
     enable: true
-    listen: 1053
+    enhanced-mode: redir-host
     nameserver:
       - 223.5.5.5
       - 101.6.6.6
       - 119.29.29.29
       - 8.8.8.8
       - 114.114.114.114
-      - 8.8.8.8
+      - 8.8.4.4
       - 1.1.1.1
+# interface-name: en0 # 出口网卡名称，或者使用下方的自动检测
+  tun:
+    enable: true
+    stack: gvisor
+    dns-hijack:
+      - 198.18.0.2:53
+    macOS-auto-route: true
+    macOS-auto-detect-interface: true # 自动检测出口网卡
+# 备用订阅地址
+# https://tro.zqwnan.tk/
+# https://proxypool.ga/
 proxy-providers:
   Mynodes:
     type: http
     path: proxy-providers/Mynodes.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=CN,TW,SG,CH,DE,GB
+    url: https://proxypoolss.tk/clash/proxies?c=CN,TW,SG,CH,DE,GB
     interval: 86400
     health-check:
       enable: true
@@ -62,7 +73,7 @@ proxy-providers:
   HK:
     type: http
     path: proxy-providers/HK.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=HK
+    url: https://proxypoolss.tk/clash/proxies?c=HK
     interval: 86400
     health-check:
       enable: true
@@ -71,7 +82,7 @@ proxy-providers:
   TW:
     type: http
     path: proxy-providers/TW.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=TW
+    url: https://proxypoolss.tk/clash/proxies?c=TW
     interval: 86400
     health-check:
       enable: true
@@ -80,7 +91,7 @@ proxy-providers:
   SG:
     type: http
     path: proxy-providers/SG.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=SG
+    url: https://proxypoolss.tk/clash/proxies?c=SG
     interval: 86400
     health-check:
       enable: true
@@ -89,7 +100,7 @@ proxy-providers:
   JP:
     type: http
     path: proxy-providers/JP.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=JP
+    url: https://proxypoolss.tk/clash/proxies?c=JP
     interval: 86400
     health-check:
       enable: true
@@ -98,7 +109,7 @@ proxy-providers:
   US:
     type: http
     path: proxy-providers/US.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=US
+    url: https://proxypoolss.tk/clash/proxies?c=US
     interval: 86400
     health-check:
       enable: true
@@ -107,7 +118,7 @@ proxy-providers:
   RU:
     type: http
     path: proxy-providers/RU.yaml
-    url: https://proxy.tgbot.co/clash/proxies?c=RU
+    url: https://proxypoolss.tk/clash/proxies?c=RU
     interval: 86400
     health-check:
       enable: true
@@ -222,12 +233,12 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml
     path: ./providers/rule-provider_ProxyMedia.yaml
-  IqiyiHMT:
+  Bilibili:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/IqiyiHMT.yaml
-    path: ./providers/rule-provider_IqiyiHMT.yaml
-  BilibiliHMT:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.yaml
+    path: ./providers/rule-provider_Bilibili.yaml
+  Bilibili:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml
@@ -271,8 +282,7 @@ rules:
   - RULE-SET,Bahamut,📺 巴哈姆特
   - RULE-SET,StreamingSE,🌏 国内媒体
   - RULE-SET,ProxyMedia,🌍 国外媒体
-  - RULE-SET,IqiyiHMT,🌏 出海媒体
-  - RULE-SET,BilibiliHMT,🌏 出海媒体
+  - RULE-SET,Bilibili,📺 哔哩哔哩
   - RULE-SET,ProxyGFWlist,🔰 节点选择
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,ChinaCompanyIp,🎯 全球直连
@@ -384,6 +394,17 @@ proxy-groups:
       - 🇹🇼 台湾故障
     use:
       - TW
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - 🔰 节点选择
+      - 🇭🇰 香港故障
+      - 🇹🇼 台湾故障
+    use:
+      - HK
+      - TW
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -411,17 +432,6 @@ proxy-groups:
       - 🇹🇼 台湾故障
       - 🇸🇬 新加坡故障
       - 🇯🇵 日本故障
-  - name: 🌏 出海媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 手动切换
-      - 🔰 节点选择
-      - 🇭🇰 香港故障
-      - 🇹🇼 台湾故障
-    use:
-      - HK
-      - TW
   - name: 📢 谷歌FCM
     type: select
     proxies:
