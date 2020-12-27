@@ -40,7 +40,7 @@ dns:
 mixin:
   dns:
     enable: true
-    listen: 1053
+    enhanced-mode: redir-host
     nameserver:
       - 223.5.5.5
       - 101.6.6.6
@@ -49,6 +49,14 @@ mixin:
       - 114.114.114.114
       - 8.8.4.4
       - 1.1.1.1
+# interface-name: en0 # 出口网卡名称，或者使用下方的自动检测
+  tun:
+    enable: true
+    stack: gvisor
+    dns-hijack:
+      - 198.18.0.2:53
+    macOS-auto-route: true
+    macOS-auto-detect-interface: true # 自动检测出口网卡
 proxy-providers:
   Mynodes:
     type: http
