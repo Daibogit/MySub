@@ -223,11 +223,12 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml
     path: ./providers/rule-provider_Bahamut.yaml
-  StreamingSE:
+  ChinaMedia:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
-    path: ./providers/rule-provider_StreamingSE.yaml
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml
+    path: ./provider/ChinaMedia.yaml
+    path: ./providers/rule-provider_ChinaMedia.yaml
   ProxyMedia:
     type: http
     behavior: classical
@@ -261,7 +262,7 @@ rule-providers:
   Download:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Daibogit/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml
     path: ./providers/rule-provider_Download.yaml
 rules:
   - RULE-SET,NetEaseMusic,🎵 网易云音乐
@@ -280,9 +281,9 @@ rules:
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,AmazonIp,🎥 奈飞视频
   - RULE-SET,Bahamut,📺 巴哈姆特
-  - RULE-SET,StreamingSE,🌏 国内媒体
-  - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,Bilibili,📺 哔哩哔哩
+  - RULE-SET,ChinaMedia,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,ProxyGFWlist,🔰 节点选择
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,ChinaCompanyIp,🎯 全球直连
