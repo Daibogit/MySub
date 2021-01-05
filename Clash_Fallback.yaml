@@ -1668,7 +1668,6 @@ rules:
  - DOMAIN-SUFFIX,dispatcher.upmc.uc.cn,🍃 应用净化
  - DOMAIN-SUFFIX,huichuan.sm.cn,🍃 应用净化
  - DOMAIN-SUFFIX,log.cs.pp.cn,🍃 应用净化
- - DOMAIN-SUFFIX,m.uczzd.cn,🍃 应用净化
  - DOMAIN-SUFFIX,patriot.cs.pp.cn,🍃 应用净化
  - DOMAIN-SUFFIX,puds.ucweb.com,🍃 应用净化
  - DOMAIN-SUFFIX,server.m.pp.cn,🍃 应用净化
@@ -10137,6 +10136,8 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
  - DOMAIN-SUFFIX,sony.com,🎮 游戏平台
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+ - PROCESS-NAME,Telegram.exe,📲 电报消息
+ - PROCESS-NAME,org.telegram.messenger,📲 电报消息
  - DOMAIN-SUFFIX,t.me,📲 电报消息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报消息
  - DOMAIN-SUFFIX,telegra.ph,📲 电报消息
@@ -17141,19 +17142,19 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
- - PROCESS-NAME,aria2c,🎯 全球直连
- - PROCESS-NAME,fdm,🎯 全球直连
- - PROCESS-NAME,Folx,🎯 全球直连
- - PROCESS-NAME,NetTransport,🎯 全球直连
- - PROCESS-NAME,Thunder,🎯 全球直连
- - PROCESS-NAME,Transmission,🎯 全球直连
- - PROCESS-NAME,uTorrent,🎯 全球直连
- - PROCESS-NAME,WebTorrent,🎯 全球直连
- - PROCESS-NAME,WebTorrent Helper,🎯 全球直连
+ - PROCESS-NAME,aria2c.exe,🎯 全球直连
+ - PROCESS-NAME,fdm.exe,🎯 全球直连
+ - PROCESS-NAME,Folx.exe,🎯 全球直连
+ - PROCESS-NAME,NetTransport.exe,🎯 全球直连
+ - PROCESS-NAME,Thunder.exe,🎯 全球直连
+ - PROCESS-NAME,Transmission.exe,🎯 全球直连
+ - PROCESS-NAME,uTorrent.exe,🎯 全球直连
+ - PROCESS-NAME,WebTorrent.exe,🎯 全球直连
+ - PROCESS-NAME,WebTorrent Helper.exe,🎯 全球直连
  - DOMAIN-SUFFIX,smtp,🎯 全球直连
  - DOMAIN-KEYWORD,aria2,🎯 全球直连
- - PROCESS-NAME,DownloadService,🎯 全球直连
- - PROCESS-NAME,Weiyun,🎯 全球直连
- - PROCESS-NAME,baidunetdisk,🎯 全球直连
+ - PROCESS-NAME,DownloadService.exe,🎯 全球直连
+ - PROCESS-NAME,Weiyun.exe,🎯 全球直连
+ - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
