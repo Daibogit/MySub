@@ -375,6 +375,7 @@ rules:
  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
@@ -391,8 +392,8 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
@@ -1453,8 +1454,7 @@ rules:
  - DOMAIN-SUFFIX,policy.jd.com,🍃 应用净化
  - DOMAIN-SUFFIX,stat.m.jd.com,🍃 应用净化
  - DOMAIN-SUFFIX,ads.service.kugou.com,🍃 应用净化
- - DOMAIN-SUFFIX,bssdl.kugou.com,🍃 应用净化
- - DOMAIN-SUFFIX,bssdlbig.kugou.com,🍃 应用净化
+ - DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com,🍃 应用净化
  - DOMAIN-SUFFIX,d.kugou.com,🍃 应用净化
  - DOMAIN-SUFFIX,downmobile.kugou.com,🍃 应用净化
  - DOMAIN-SUFFIX,gad.kugou.com,🍃 应用净化
@@ -2112,8 +2112,10 @@ rules:
  - DOMAIN-SUFFIX,0923csfsteibv12.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,0928vld.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,0937jyg.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,0b2qv7.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,0bc.top,🆎 AdBlock
  - DOMAIN-SUFFIX,0fwg.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,0ij3tm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,0mr.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,0qkc.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,0xxd.com,🆎 AdBlock
@@ -2191,6 +2193,7 @@ rules:
  - DOMAIN-SUFFIX,12.cookcai.com,🆎 AdBlock
  - DOMAIN-SUFFIX,12086.net,🆎 AdBlock
  - DOMAIN-SUFFIX,1214bdk.xyz,🆎 AdBlock
+ - DOMAIN-SUFFIX,1221dhb.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,1224.dxsbb.com,🆎 AdBlock
  - DOMAIN-SUFFIX,123456.asia,🆎 AdBlock
  - DOMAIN-SUFFIX,12365chia.com,🆎 AdBlock
@@ -2229,6 +2232,7 @@ rules:
  - DOMAIN-SUFFIX,18tzx.com,🆎 AdBlock
  - DOMAIN-SUFFIX,1999019.com,🆎 AdBlock
  - DOMAIN-SUFFIX,1999sg.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,19shows.net,🆎 AdBlock
  - DOMAIN-SUFFIX,1d1a.com,🆎 AdBlock
  - DOMAIN-SUFFIX,1d1px.net,🆎 AdBlock
  - DOMAIN-SUFFIX,1fv3b.cn,🆎 AdBlock
@@ -2239,6 +2243,7 @@ rules:
  - DOMAIN-SUFFIX,1kzh.com,🆎 AdBlock
  - DOMAIN-SUFFIX,1l1.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,1lib.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,1pzskg.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,1q8h.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,1uandun.com,🆎 AdBlock
  - DOMAIN-SUFFIX,1x26q3.cn,🆎 AdBlock
@@ -2292,6 +2297,7 @@ rules:
  - DOMAIN-SUFFIX,2polj.top,🆎 AdBlock
  - DOMAIN-SUFFIX,2q5p.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,2scjbg.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,2shol4.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,2shoushi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,2txt.cc:8862,🆎 AdBlock
  - DOMAIN-SUFFIX,2zfzly.com,🆎 AdBlock
@@ -2304,6 +2310,9 @@ rules:
  - DOMAIN-SUFFIX,31365y.com,🆎 AdBlock
  - DOMAIN-SUFFIX,32.huanqiu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,321.jintang114.org,🆎 AdBlock
+ - DOMAIN-SUFFIX,3337735.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,3337736.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,3337780.com,🆎 AdBlock
  - DOMAIN-SUFFIX,333bj.cloud,🆎 AdBlock
  - DOMAIN-SUFFIX,333dm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,338336.com,🆎 AdBlock
@@ -2412,6 +2421,7 @@ rules:
  - DOMAIN-SUFFIX,5dian.org,🆎 AdBlock
  - DOMAIN-SUFFIX,5dydk.com,🆎 AdBlock
  - DOMAIN-SUFFIX,5eln.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,5glyqw.com,🆎 AdBlock
  - DOMAIN-SUFFIX,5hytr.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,5imoney.com,🆎 AdBlock
  - DOMAIN-SUFFIX,5jcom.com.cn,🆎 AdBlock
@@ -2489,6 +2499,7 @@ rules:
  - DOMAIN-SUFFIX,7891655.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,7a096v.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,7car.com.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,7cbwus.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,7dah8.com,🆎 AdBlock
  - DOMAIN-SUFFIX,7ez4.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,7gg.cc,🆎 AdBlock
@@ -2528,7 +2539,6 @@ rules:
  - DOMAIN-SUFFIX,89h8.com,🆎 AdBlock
  - DOMAIN-SUFFIX,8ao8ao.com,🆎 AdBlock
  - DOMAIN-SUFFIX,8byu.cn,🆎 AdBlock
- - DOMAIN-SUFFIX,8dp.net,🆎 AdBlock
  - DOMAIN-SUFFIX,8hdp.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,8hpay.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,8j24h.cn,🆎 AdBlock
@@ -2582,7 +2592,9 @@ rules:
  - DOMAIN-SUFFIX,9nwg9sib9e.com,🆎 AdBlock
  - DOMAIN-SUFFIX,9pb0h.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,9ucm.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,9uh94c.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,9uys.co,🆎 AdBlock
+ - DOMAIN-SUFFIX,9weg7b.com,🆎 AdBlock
  - DOMAIN-SUFFIX,9wlm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,9wotuan.com,🆎 AdBlock
  - DOMAIN-SUFFIX,9xiazaiqi.com,🆎 AdBlock
@@ -2716,6 +2728,7 @@ rules:
  - DOMAIN-SUFFIX,ad.52av.one,🆎 AdBlock
  - DOMAIN-SUFFIX,ad.52av.tv,🆎 AdBlock
  - DOMAIN-SUFFIX,ad.bobi.tw,🆎 AdBlock
+ - DOMAIN-SUFFIX,ad.ccement.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ad.cdnjm.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ad.muyang888.top,🆎 AdBlock
  - DOMAIN-SUFFIX,ad.walkgame.com,🆎 AdBlock
@@ -2791,6 +2804,7 @@ rules:
  - DOMAIN-SUFFIX,ahunai.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ahunui.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ahw3.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,ahwczn.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ahyau.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ahyuns.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ai.bioon.com,🆎 AdBlock
@@ -2832,6 +2846,7 @@ rules:
  - DOMAIN-SUFFIX,aligiao.info,🆎 AdBlock
  - DOMAIN-SUFFIX,alimb.top,🆎 AdBlock
  - DOMAIN-SUFFIX,alimc1.top,🆎 AdBlock
+ - DOMAIN-SUFFIX,alime-pic.oss-cn-hangzhou.aliyuncs.com,🆎 AdBlock
  - DOMAIN-SUFFIX,alisinak.com,🆎 AdBlock
  - DOMAIN-SUFFIX,alitianxia168.com,🆎 AdBlock
  - DOMAIN-SUFFIX,alitx963.com,🆎 AdBlock
@@ -2866,12 +2881,15 @@ rules:
  - DOMAIN-SUFFIX,anyysz.com,🆎 AdBlock
  - DOMAIN-SUFFIX,anzhuocpm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,aodepuo.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,aoidf3.com,🆎 AdBlock
  - DOMAIN-SUFFIX,aomde.com,🆎 AdBlock
  - DOMAIN-SUFFIX,aotetu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,aox7.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,aoyinn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,aoyou2.top,🆎 AdBlock
  - DOMAIN-SUFFIX,aoyou3.top,🆎 AdBlock
+ - DOMAIN-SUFFIX,aoyou4.top,🆎 AdBlock
+ - DOMAIN-SUFFIX,apdingqian.com,🆎 AdBlock
  - DOMAIN-SUFFIX,api.557400.com,🆎 AdBlock
  - DOMAIN-SUFFIX,apjiangte.com,🆎 AdBlock
  - DOMAIN-SUFFIX,apkdo.com,🆎 AdBlock
@@ -2941,7 +2959,7 @@ rules:
  - DOMAIN-SUFFIX,baful.net,🆎 AdBlock
  - DOMAIN-SUFFIX,bahu.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,baiapk.com,🆎 AdBlock
- - DOMAIN-SUFFIX,baidu.bxwx666.org,🆎 AdBlock
+ - DOMAIN-SUFFIX,baidu.bxwx555.org,🆎 AdBlock
  - DOMAIN-SUFFIX,baidu1.codejie.net,🆎 AdBlock
  - DOMAIN-SUFFIX,baiduace.com,🆎 AdBlock
  - DOMAIN-SUFFIX,baiduada.babihu.com,🆎 AdBlock
@@ -3151,6 +3169,7 @@ rules:
  - DOMAIN-SUFFIX,business.92wy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,buydee.org,🆎 AdBlock
  - DOMAIN-SUFFIX,buyihao.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,buyuninfo.com,🆎 AdBlock
  - DOMAIN-SUFFIX,bv8888.com,🆎 AdBlock
  - DOMAIN-SUFFIX,bvoer.com,🆎 AdBlock
  - DOMAIN-SUFFIX,bvosv.com,🆎 AdBlock
@@ -3281,6 +3300,7 @@ rules:
  - DOMAIN-SUFFIX,chinaqirun.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,chinaweian.com,🆎 AdBlock
  - DOMAIN-SUFFIX,chinawms.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,chinaxingyin.com,🆎 AdBlock
  - DOMAIN-SUFFIX,chinayutai.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,chiuhua.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,chnhty.com,🆎 AdBlock
@@ -3319,6 +3339,7 @@ rules:
  - DOMAIN-SUFFIX,client.88tours.com,🆎 AdBlock
  - DOMAIN-SUFFIX,climbcoder.com,🆎 AdBlock
  - DOMAIN-SUFFIX,clmmw.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,cloudpsvn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,clxxkz.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,cmaxisolation.com,🆎 AdBlock
  - DOMAIN-SUFFIX,cmm.xmfish.com,🆎 AdBlock
@@ -3416,6 +3437,8 @@ rules:
  - DOMAIN-SUFFIX,cxb4.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,cxcxt.com,🆎 AdBlock
  - DOMAIN-SUFFIX,cxfzw.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,cxgh.net,🆎 AdBlock
+ - DOMAIN-SUFFIX,cxmob.net,🆎 AdBlock
  - DOMAIN-SUFFIX,cxslchkb.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,cxy88.friok.com,🆎 AdBlock
  - DOMAIN-SUFFIX,cy-block.cn,🆎 AdBlock
@@ -3435,6 +3458,7 @@ rules:
  - DOMAIN-SUFFIX,czxjx.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,czzdf.com,🆎 AdBlock
  - DOMAIN-SUFFIX,d-test.39.net,🆎 AdBlock
+ - DOMAIN-SUFFIX,d.8181zx.com,🆎 AdBlock
  - DOMAIN-SUFFIX,d.ab126.com,🆎 AdBlock
  - DOMAIN-SUFFIX,d.dgzj.com,🆎 AdBlock
  - DOMAIN-SUFFIX,d.ziyuanm.com,🆎 AdBlock
@@ -3456,6 +3480,7 @@ rules:
  - DOMAIN-SUFFIX,d663q.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,d72l4.com,🆎 AdBlock
  - DOMAIN-SUFFIX,d8ekco.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,dacedsfa.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dachadu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dadawm.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,dadjia.com,🆎 AdBlock
@@ -3500,6 +3525,7 @@ rules:
  - DOMAIN-SUFFIX,dawwx.com,🆎 AdBlock
  - DOMAIN-SUFFIX,daxijia.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,daxueshengqiandai.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,daylskg.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dazhonghua.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dazibenwm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dbaij.com,🆎 AdBlock
@@ -3555,6 +3581,7 @@ rules:
  - DOMAIN-SUFFIX,dianshihuanping.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dianwenwang.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dierqingchun.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,dietfd.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dilcn.net,🆎 AdBlock
  - DOMAIN-SUFFIX,dilidd.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dilqdiw.cn,🆎 AdBlock
@@ -3594,7 +3621,7 @@ rules:
  - DOMAIN-SUFFIX,dm.taobaojuhuasuan.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dm.wenshenxiu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dm.zuowenku.net,🆎 AdBlock
- - DOMAIN-SUFFIX,dm1.dnpz123.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,dm1.ddwk8.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dm1.guanwawa.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dm1.zjydt.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dmm.aizhan.com,🆎 AdBlock
@@ -3605,6 +3632,7 @@ rules:
  - DOMAIN-SUFFIX,dmswhw.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,dmym.aixyy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dn189.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,dnfkong.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dnskuu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dodomo.info,🆎 AdBlock
  - DOMAIN-SUFFIX,door2new.net,🆎 AdBlock
@@ -3725,6 +3753,7 @@ rules:
  - DOMAIN-SUFFIX,epanr.com,🆎 AdBlock
  - DOMAIN-SUFFIX,epcqyac.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,erdsyzb.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,erkesi.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,erocw.com,🆎 AdBlock
  - DOMAIN-SUFFIX,erqimall.net,🆎 AdBlock
  - DOMAIN-SUFFIX,ertongjiaju360.com,🆎 AdBlock
@@ -3751,6 +3780,7 @@ rules:
  - DOMAIN-SUFFIX,family-joy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fangjslc.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fanglinwang.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,fangniaowang.net,🆎 AdBlock
  - DOMAIN-SUFFIX,fangzhanla.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,fangzhixinxi.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,fanli.in,🆎 AdBlock
@@ -3875,6 +3905,7 @@ rules:
  - DOMAIN-SUFFIX,fwt0.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fwyang.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fxfhjs.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,fxfvttu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,fxjs.2541.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fxmacd.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fxtducb.cn,🆎 AdBlock
@@ -3882,6 +3913,7 @@ rules:
  - DOMAIN-SUFFIX,fydgold132.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fyehare.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fyjyhm.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,fyzyf.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fzbymy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fzdeng.com,🆎 AdBlock
  - DOMAIN-SUFFIX,fzdfwy.com,🆎 AdBlock
@@ -3898,6 +3930,7 @@ rules:
  - DOMAIN-SUFFIX,g1.taijuba.com,🆎 AdBlock
  - DOMAIN-SUFFIX,g1c5.com,🆎 AdBlock
  - DOMAIN-SUFFIX,g1f5.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,g1mm3d.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,g2.ousns.net,🆎 AdBlock
  - DOMAIN-SUFFIX,g3ao2q.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,g4rre.xyz,🆎 AdBlock
@@ -3925,6 +3958,7 @@ rules:
  - DOMAIN-SUFFIX,gc8fjz.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,gcaog.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gccode.gongchang.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,gcctqal.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,gdbly.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gdfc0563.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gdgy56.com,🆎 AdBlock
@@ -4003,6 +4037,7 @@ rules:
  - DOMAIN-SUFFIX,gogolm.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,gold.szonline.net,🆎 AdBlock
  - DOMAIN-SUFFIX,gongfanglong.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,gongxifacai21.top,🆎 AdBlock
  - DOMAIN-SUFFIX,goodgz.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,goodkee.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,goodwold.top,🆎 AdBlock
@@ -4017,7 +4052,10 @@ rules:
  - DOMAIN-SUFFIX,gouhei.top,🆎 AdBlock
  - DOMAIN-SUFFIX,gouweida.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,gouzhibao.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,govbeijing.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,govgift.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,govhunan.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,govjiangsu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,gowin01.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gp.jstv.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gp.zaiyunli.cn,🆎 AdBlock
@@ -4072,6 +4110,7 @@ rules:
  - DOMAIN-SUFFIX,gwdqp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gwylm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gxejgs.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,gxfc2021.top,🆎 AdBlock
  - DOMAIN-SUFFIX,gxgzyny.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gxklsftz.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,gxkyl.com,🆎 AdBlock
@@ -4110,6 +4149,7 @@ rules:
  - DOMAIN-SUFFIX,h9377c.com,🆎 AdBlock
  - DOMAIN-SUFFIX,h9wk2.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hades.qyer.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,hahazl.com,🆎 AdBlock
  - DOMAIN-SUFFIX,haidaocn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,haimaokj.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hainufamliy.top,🆎 AdBlock
@@ -4250,11 +4290,13 @@ rules:
  - DOMAIN-SUFFIX,hnhycp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hnkuangshan.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hnnuange.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,hntiantai.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hntymg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hnwjlhg.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hnxahz.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hnyiche3.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hnyny.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,hnyoufan.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hnzyzhy.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hogyp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hondajd.cn,🆎 AdBlock
@@ -4308,12 +4350,14 @@ rules:
  - DOMAIN-SUFFIX,humanding.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hunpp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,huodiyun.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,huosuniao.com,🆎 AdBlock
  - DOMAIN-SUFFIX,huoyiad1.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hurom365.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hvie6u.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hw6.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hwertd.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,hxadt.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,hxbt.alading123.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hxgccl.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hxiak.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hxlif.com,🆎 AdBlock
@@ -4338,9 +4382,11 @@ rules:
  - DOMAIN-SUFFIX,hyxca.top,🆎 AdBlock
  - DOMAIN-SUFFIX,hyyazhaji.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hyz86.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,hyzhongchuang.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hz-sllace.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hz.shouyoutv.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hzaibi.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,hzhfhkj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,hzht666.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hzhyhm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,hzlm.cc,🆎 AdBlock
@@ -4373,6 +4419,7 @@ rules:
  - DOMAIN-SUFFIX,idcot.com,🆎 AdBlock
  - DOMAIN-SUFFIX,idcqi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,identified.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,idgdmgroup.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,idianfang.com,🆎 AdBlock
  - DOMAIN-SUFFIX,idoc58.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ienkdaccessible.cn,🆎 AdBlock
@@ -4385,6 +4432,7 @@ rules:
  - DOMAIN-SUFFIX,ihear123.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ihhii.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,iia1.pikacn.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,iibahmd.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,iigushi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,il8r.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ilifecook.com,🆎 AdBlock
@@ -4446,6 +4494,7 @@ rules:
  - DOMAIN-SUFFIX,itemccmod.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ivy.pconline.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,iwansf.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,iwwacgx.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ixshklh.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,iyaos.com,🆎 AdBlock
  - DOMAIN-SUFFIX,iyoowi.com,🆎 AdBlock
@@ -4560,6 +4609,7 @@ rules:
  - DOMAIN-SUFFIX,jisufeifei.com,🆎 AdBlock
  - DOMAIN-SUFFIX,jisuoping.com,🆎 AdBlock
  - DOMAIN-SUFFIX,jiudiandyw.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,jiuhui878.com,🆎 AdBlock
  - DOMAIN-SUFFIX,jiujhzp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,jiuku.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,jiumishow.com,🆎 AdBlock
@@ -4618,6 +4668,7 @@ rules:
  - DOMAIN-SUFFIX,js.hkslg520.com,🆎 AdBlock
  - DOMAIN-SUFFIX,js.jianbihuadq.com,🆎 AdBlock
  - DOMAIN-SUFFIX,js.kt250.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,js.mscto.com,🆎 AdBlock
  - DOMAIN-SUFFIX,js.qqsort.com,🆎 AdBlock
  - DOMAIN-SUFFIX,js.ruiwen.com,🆎 AdBlock
  - DOMAIN-SUFFIX,js.shangxueba.com,🆎 AdBlock
@@ -4778,6 +4829,7 @@ rules:
  - DOMAIN-SUFFIX,kojwex.top,🆎 AdBlock
  - DOMAIN-SUFFIX,kokofits.com,🆎 AdBlock
  - DOMAIN-SUFFIX,kolinay.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,komi168.com,🆎 AdBlock
  - DOMAIN-SUFFIX,kongssew.com,🆎 AdBlock
  - DOMAIN-SUFFIX,koukou7.com,🆎 AdBlock
  - DOMAIN-SUFFIX,kouwku.cn,🆎 AdBlock
@@ -4826,6 +4878,7 @@ rules:
  - DOMAIN-SUFFIX,lamwatch.com,🆎 AdBlock
  - DOMAIN-SUFFIX,langchars.com,🆎 AdBlock
  - DOMAIN-SUFFIX,lanshi021.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,lanshiwan.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,lantata.com,🆎 AdBlock
  - DOMAIN-SUFFIX,laobei.top,🆎 AdBlock
  - DOMAIN-SUFFIX,laojiayoufang.com,🆎 AdBlock
@@ -4841,6 +4894,7 @@ rules:
  - DOMAIN-SUFFIX,leabd.douguo.com,🆎 AdBlock
  - DOMAIN-SUFFIX,leeleo.top,🆎 AdBlock
  - DOMAIN-SUFFIX,legozu.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,lejuyoujia2019.com,🆎 AdBlock
  - DOMAIN-SUFFIX,leletuitui.com,🆎 AdBlock
  - DOMAIN-SUFFIX,lemaite.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,lerenzx.cn,🆎 AdBlock
@@ -4892,6 +4946,7 @@ rules:
  - DOMAIN-SUFFIX,listenother.com,🆎 AdBlock
  - DOMAIN-SUFFIX,liufang1994.top,🆎 AdBlock
  - DOMAIN-SUFFIX,liujiaqi.top,🆎 AdBlock
+ - DOMAIN-SUFFIX,liulu888.com,🆎 AdBlock
  - DOMAIN-SUFFIX,liuzishen.com,🆎 AdBlock
  - DOMAIN-SUFFIX,liveappgirl.net,🆎 AdBlock
  - DOMAIN-SUFFIX,livehapp.com,🆎 AdBlock
@@ -4902,6 +4957,7 @@ rules:
  - DOMAIN-SUFFIX,liyelaowu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,liyueao.top,🆎 AdBlock
  - DOMAIN-SUFFIX,ljggc.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,ljmei.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ljqnbiogjp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ljuer.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ll.gxsky.com,🆎 AdBlock
@@ -4976,6 +5032,7 @@ rules:
  - DOMAIN-SUFFIX,lzmm8.com,🆎 AdBlock
  - DOMAIN-SUFFIX,lzwla.top,🆎 AdBlock
  - DOMAIN-SUFFIX,lzytt.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,m06nev.com,🆎 AdBlock
  - DOMAIN-SUFFIX,m1.100how.com,🆎 AdBlock
  - DOMAIN-SUFFIX,m1.27com.com,🆎 AdBlock
  - DOMAIN-SUFFIX,m1.51kaowang.com,🆎 AdBlock
@@ -5031,6 +5088,7 @@ rules:
  - DOMAIN-SUFFIX,mdsfzh.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,me0715.top,🆎 AdBlock
  - DOMAIN-SUFFIX,medprofile.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,meethanshi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mei181.com,🆎 AdBlock
  - DOMAIN-SUFFIX,meicubao.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,meihaoxiangwang.com,🆎 AdBlock
@@ -5055,6 +5113,7 @@ rules:
  - DOMAIN-SUFFIX,mfcvxw.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,mg.32r.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mg.glwxw.net,🆎 AdBlock
+ - DOMAIN-SUFFIX,mg17i.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,mgsue.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,mgtv-bbqn.oss-cn-beijing.aliyuncs.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mgwcn.com,🆎 AdBlock
@@ -5077,6 +5136,7 @@ rules:
  - DOMAIN-SUFFIX,miniye.xjts.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,minwear.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,minyaartcrafts.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,mitao17.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mitjg.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,mjita.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,mjx123.com,🆎 AdBlock
@@ -5099,6 +5159,7 @@ rules:
  - DOMAIN-SUFFIX,mnxtu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mo-tuo.com,🆎 AdBlock
  - DOMAIN-SUFFIX,moguozhi.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,mohaijishu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,money.qz828.com,🆎 AdBlock
  - DOMAIN-SUFFIX,monimoni.top,🆎 AdBlock
  - DOMAIN-SUFFIX,moodoocrv.com.cn,🆎 AdBlock
@@ -5257,6 +5318,7 @@ rules:
  - DOMAIN-SUFFIX,ntzfly.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,nunc-china.com,🆎 AdBlock
  - DOMAIN-SUFFIX,nuonuo1.icu,🆎 AdBlock
+ - DOMAIN-SUFFIX,nuoqingck.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,nuxyz.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,nv43.com,🆎 AdBlock
  - DOMAIN-SUFFIX,nvsea.com,🆎 AdBlock
@@ -5397,6 +5459,7 @@ rules:
  - DOMAIN-SUFFIX,pingping888.com,🆎 AdBlock
  - DOMAIN-SUFFIX,pingshu365.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,pinkmore.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,pinwu123.com,🆎 AdBlock
  - DOMAIN-SUFFIX,pinyoux.com,🆎 AdBlock
  - DOMAIN-SUFFIX,pitena.top,🆎 AdBlock
  - DOMAIN-SUFFIX,pjbjzf.com,🆎 AdBlock
@@ -5411,6 +5474,7 @@ rules:
  - DOMAIN-SUFFIX,plerv.com,🆎 AdBlock
  - DOMAIN-SUFFIX,plokr.com,🆎 AdBlock
  - DOMAIN-SUFFIX,pmshy.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,pmvlwjy.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,pnhfc.com,🆎 AdBlock
  - DOMAIN-SUFFIX,pnxs.com,🆎 AdBlock
  - DOMAIN-SUFFIX,pochengweiyuan.com,🆎 AdBlock
@@ -5489,6 +5553,7 @@ rules:
  - DOMAIN-SUFFIX,qfs365.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qfzcxs.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,qgaot.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,qgdvyvd.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,qgjapp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qgss8.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qhaif.com,🆎 AdBlock
@@ -5528,6 +5593,7 @@ rules:
  - DOMAIN-SUFFIX,qkptx.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qkykxrm.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ql.uzuzuz.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,ql01t4.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qlaot.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qlssbq.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,qmkdy.com,🆎 AdBlock
@@ -5577,6 +5643,7 @@ rules:
  - DOMAIN-SUFFIX,qyctj.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qyhwqie.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,qyqc4s.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,qysyyg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qyttl.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,qytyf.com,🆎 AdBlock
  - DOMAIN-SUFFIX,qzbxfs.com,🆎 AdBlock
@@ -5596,6 +5663,7 @@ rules:
  - DOMAIN-SUFFIX,rabc1.iteye.com,🆎 AdBlock
  - DOMAIN-SUFFIX,raeqqe.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,rainfinemalawi.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,ranqibio.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rbign.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,rbmry.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rbtjkx.cn,🆎 AdBlock
@@ -5671,18 +5739,21 @@ rules:
  - DOMAIN-SUFFIX,s9w.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,s9wp1.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,sa.sina.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,saastt.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sachbs.club,🆎 AdBlock
  - DOMAIN-SUFFIX,sadobo.com,🆎 AdBlock
  - DOMAIN-SUFFIX,saf588.com,🆎 AdBlock
  - DOMAIN-SUFFIX,safe524.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,safe555.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,saitef.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,sakuraquant.com,🆎 AdBlock
  - DOMAIN-SUFFIX,salary.xiao84.com,🆎 AdBlock
  - DOMAIN-SUFFIX,same.chinadaily.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,same.eastmoney.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sanitwealth.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sanjinma.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sanxueshufa.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,sasoo.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,satrod.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,sbbd1.qulishi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sbenx.com,🆎 AdBlock
@@ -5702,6 +5773,7 @@ rules:
  - DOMAIN-SUFFIX,scqajt.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,script-bd.baixing.net,🆎 AdBlock
  - DOMAIN-SUFFIX,scriptcc.cc,🆎 AdBlock
+ - DOMAIN-SUFFIX,scswuliu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,scvxgm.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,scw0.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sdaaxz.xyz,🆎 AdBlock
@@ -5748,6 +5820,7 @@ rules:
  - DOMAIN-SUFFIX,shanghuitianxia.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,shangyingwm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shannon-porject.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,shanprint.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shanxiyizhao.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shanyuebrowser.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shaque.vip,🆎 AdBlock
@@ -5769,6 +5842,7 @@ rules:
  - DOMAIN-SUFFIX,shffcy.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,shforu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shibagongfang.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,shidaikejivip.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,shidailw.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shiguangyx.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,shijiezhidao.com,🆎 AdBlock
@@ -5790,6 +5864,7 @@ rules:
  - DOMAIN-SUFFIX,shuangshiyihightgo.top,🆎 AdBlock
  - DOMAIN-SUFFIX,shucaihangjia.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shuccn.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,shukongshebei.net,🆎 AdBlock
  - DOMAIN-SUFFIX,shunlige.com,🆎 AdBlock
  - DOMAIN-SUFFIX,shunxinyuancaiwu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,shuwuzhan.com,🆎 AdBlock
@@ -5855,6 +5930,7 @@ rules:
  - DOMAIN-SUFFIX,sobolong.com,🆎 AdBlock
  - DOMAIN-SUFFIX,socdm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sodhef.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,sogov587.top,🆎 AdBlock
  - DOMAIN-SUFFIX,sohu999.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sokoyo-fq.com,🆎 AdBlock
  - DOMAIN-SUFFIX,somode.net,🆎 AdBlock
@@ -5942,6 +6018,7 @@ rules:
  - DOMAIN-SUFFIX,sxmdxy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sxmutan.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sxtyhl.top,🆎 AdBlock
+ - DOMAIN-SUFFIX,sxxfmc.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sxybjjz.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,sxying.top,🆎 AdBlock
  - DOMAIN-SUFFIX,sxympy.com,🆎 AdBlock
@@ -6042,6 +6119,7 @@ rules:
  - DOMAIN-SUFFIX,theonsiteline.com,🆎 AdBlock
  - DOMAIN-SUFFIX,theta.sogoucdn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,thetestpage.39.net,🆎 AdBlock
+ - DOMAIN-SUFFIX,thindsoo.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,thishare.com,🆎 AdBlock
  - DOMAIN-SUFFIX,thuyki.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,thxnr.com,🆎 AdBlock
@@ -6079,6 +6157,7 @@ rules:
  - DOMAIN-SUFFIX,tk59n.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tkd777.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tkshyp.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,tlmybj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tlwl1.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tlwl2.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tmea116.oss-cn-beijing.aliyuncs.com,🆎 AdBlock
@@ -6097,6 +6176,7 @@ rules:
  - DOMAIN-SUFFIX,toourbb.com,🆎 AdBlock
  - DOMAIN-SUFFIX,top267.com,🆎 AdBlock
  - DOMAIN-SUFFIX,topline.cc,🆎 AdBlock
+ - DOMAIN-SUFFIX,topvcbank.com,🆎 AdBlock
  - DOMAIN-SUFFIX,toujing4.top,🆎 AdBlock
  - DOMAIN-SUFFIX,toujing5.top,🆎 AdBlock
  - DOMAIN-SUFFIX,toujing7.top,🆎 AdBlock
@@ -6149,6 +6229,7 @@ rules:
  - DOMAIN-SUFFIX,tymsyx.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tyrghj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tyyjzs.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,tzh019.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,u.63kc.com,🆎 AdBlock
  - DOMAIN-SUFFIX,u.cnzol.com,🆎 AdBlock
  - DOMAIN-SUFFIX,u.huoying666.com,🆎 AdBlock
@@ -6177,6 +6258,7 @@ rules:
  - DOMAIN-SUFFIX,ucvqmvg.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ucxgg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,udbyv8918.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,ue2bm3.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ueaeqqi.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ugg66.com,🆎 AdBlock
  - DOMAIN-SUFFIX,uh64b.cn,🆎 AdBlock
@@ -6297,6 +6379,7 @@ rules:
  - DOMAIN-SUFFIX,wangdaizao.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wangdddy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wangdq.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,wangjulm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wangkeduo.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wangketuan.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wangliqin.top,🆎 AdBlock
@@ -6324,6 +6407,7 @@ rules:
  - DOMAIN-SUFFIX,wcjup.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wcnmd.top,🆎 AdBlock
  - DOMAIN-SUFFIX,wdeie.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,wdxxx.top,🆎 AdBlock
  - DOMAIN-SUFFIX,wdymwzz.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wdzsb.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,web.900.la,🆎 AdBlock
@@ -6337,12 +6421,14 @@ rules:
  - DOMAIN-SUFFIX,weduoke.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weekslw.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wehoysp.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,weidehuagong.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weifengtianxia.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weiguanwang888.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weihuiyungou.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weiiii.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weikefanli.com,🆎 AdBlock
  - DOMAIN-SUFFIX,weimeicar.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,weinin99.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,weiqiqu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,weixingshexiangji.net,🆎 AdBlock
  - DOMAIN-SUFFIX,weixinhuoyuan.com,🆎 AdBlock
@@ -6358,6 +6444,7 @@ rules:
  - DOMAIN-SUFFIX,wervp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wew.dushiwenxue.net,🆎 AdBlock
  - DOMAIN-SUFFIX,wf321.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,wfaffwshop.xyz,🆎 AdBlock
  - DOMAIN-SUFFIX,wffengtai.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wfslj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wfxoi.xyz,🆎 AdBlock
@@ -6392,6 +6479,7 @@ rules:
  - DOMAIN-SUFFIX,wkjhd.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wksrx.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wl963.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,wlaoc.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wlbqczk.vip,🆎 AdBlock
  - DOMAIN-SUFFIX,wlkpa.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wlshotel.cn,🆎 AdBlock
@@ -6440,12 +6528,14 @@ rules:
  - DOMAIN-SUFFIX,wuyekanba.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wuylp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wvcdn.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,wvfgiio.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wvstatic.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wvver.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wwlolbs.com,🆎 AdBlock
  - DOMAIN-SUFFIX,www-sina-cn-com.com,🆎 AdBlock
  - DOMAIN-SUFFIX,www1.wxnmh.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wxbdfm.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,wxebgpj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wxhdwy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wxiansen.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,wxktv.cn,🆎 AdBlock
@@ -6488,6 +6578,7 @@ rules:
  - DOMAIN-SUFFIX,xc.mydrivers.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xcads.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xcclzs.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,xccpro.vip,🆎 AdBlock
  - DOMAIN-SUFFIX,xcdzsw.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xcf-bd-js.chuimg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xchgx.com,🆎 AdBlock
@@ -6524,6 +6615,7 @@ rules:
  - DOMAIN-SUFFIX,xiangchim0.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xianguangergaozhi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xiangwangdesh.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,xiangyuym.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xiansenmeng.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xiaobiaoucai.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xiaobingmai.cn,🆎 AdBlock
@@ -6546,6 +6638,7 @@ rules:
  - DOMAIN-SUFFIX,xingtai0.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xingyao.doubiy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xingyaoapi.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,xinheshengmce.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xinji2.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xinju.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,xinlongrubber.com,🆎 AdBlock
@@ -6569,7 +6662,9 @@ rules:
  - DOMAIN-SUFFIX,xk2012.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xkanf.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xkqpco.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,xl4z7.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xlgqy.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,xlgtblj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xlhm88.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xliansheng.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xm223.cn,🆎 AdBlock
@@ -6643,6 +6738,7 @@ rules:
  - DOMAIN-SUFFIX,xnjzsn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xnmcmnt.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xnzkqew.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,xpxvok.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xrain.net,🆎 AdBlock
  - DOMAIN-SUFFIX,xs.houyi.baofeng.net,🆎 AdBlock
  - DOMAIN-SUFFIX,xsdlq.cn,🆎 AdBlock
@@ -6655,6 +6751,7 @@ rules:
  - DOMAIN-SUFFIX,xtyizilaijx.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xu7b.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xuanmeiguoji.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,xuanmin.wang,🆎 AdBlock
  - DOMAIN-SUFFIX,xue.zbyw.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,xuehelei.com,🆎 AdBlock
  - DOMAIN-SUFFIX,xuenengyoujiaoyu.com,🆎 AdBlock
@@ -6720,10 +6817,12 @@ rules:
  - DOMAIN-SUFFIX,yangzhenpeng.top,🆎 AdBlock
  - DOMAIN-SUFFIX,yanjunbo.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yantairuide.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,yanyanbiji.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yaodianzhineng.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yaohq.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yaoquanshumeiyu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yaoxiaoli.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,yapusheji.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yatemy.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yauwsd.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ybaiu.com,🆎 AdBlock
@@ -6756,6 +6855,7 @@ rules:
  - DOMAIN-SUFFIX,yg10x.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ygblogtag.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ygiqfnn.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,ygnoqu.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ygqczh.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yhhls.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yhsmk.com,🆎 AdBlock
@@ -6791,12 +6891,14 @@ rules:
  - DOMAIN-SUFFIX,yitai001.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yitiaoyu.top,🆎 AdBlock
  - DOMAIN-SUFFIX,yiwuds.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,yixiangzhan.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yixui.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yiyu-fz.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yiyuantian.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yizhijin.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yjegf.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yjiaj.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,yjxqy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yk0712.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ykanx.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ykjmy.com,🆎 AdBlock
@@ -6869,6 +6971,7 @@ rules:
  - DOMAIN-SUFFIX,yttz113.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yuanhangpiju.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yuanmengbi.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,yuanqitu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yuanyanglw.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yueduyy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yueqiangss.cn,🆎 AdBlock
@@ -6893,6 +6996,7 @@ rules:
  - DOMAIN-SUFFIX,yuxiny.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yuyanbaojie.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yuyue008.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,yvktmda.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ywadf.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,ywbwsm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ywjxsp168.cn,🆎 AdBlock
@@ -6921,7 +7025,9 @@ rules:
  - DOMAIN-SUFFIX,yyy6999.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yyylg.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yzaosite.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,yzbqz.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yzdcb.xyz,🆎 AdBlock
+ - DOMAIN-SUFFIX,yzfbank.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yzftqx.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,yzh360.com,🆎 AdBlock
  - DOMAIN-SUFFIX,yzjlsb.com,🆎 AdBlock
@@ -6961,6 +7067,7 @@ rules:
  - DOMAIN-SUFFIX,zgbbtjt.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zgbsny.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zgc66.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,zgdfvih.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zgdmsj.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zgdtro.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zgfszs.com,🆎 AdBlock
@@ -6984,6 +7091,7 @@ rules:
  - DOMAIN-SUFFIX,zhangshiyuan.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhanjiangletian.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhanlan5.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,zhekoudajie.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhengjsmd.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zhengyejixie.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhengzhoupengbo.com,🆎 AdBlock
@@ -6994,6 +7102,7 @@ rules:
  - DOMAIN-SUFFIX,zhihu.xmcimg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhinengap.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhiong.net,🆎 AdBlock
+ - DOMAIN-SUFFIX,zhipinbook.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zhivalley.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zhixd.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zhixiuchang.com,🆎 AdBlock
@@ -7001,6 +7110,8 @@ rules:
  - DOMAIN-SUFFIX,zhizones.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhjfad.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhmatou.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,zhmyq.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,zhongbolm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhongchengzp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhongdoulicai.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zhongfujiaoyu.cn,🆎 AdBlock
@@ -7051,13 +7162,16 @@ rules:
  - DOMAIN-SUFFIX,zl588.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zlauk.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zlfhe8.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,zln44.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zmgod.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zmlfk.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zmlled.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zmyuer.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,zoepb.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,zoom.zshu.net,🆎 AdBlock
  - DOMAIN-SUFFIX,zopeynxv.top,🆎 AdBlock
  - DOMAIN-SUFFIX,zougg.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,zoujuhonglawyer.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zp0737.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zp22938576.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zpwansf.cn,🆎 AdBlock
@@ -7105,6 +7219,7 @@ rules:
  - DOMAIN-SUFFIX,zxzhengxin.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zybpj.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zydyjzw.cn,🆎 AdBlock
+ - DOMAIN-SUFFIX,zykxjt.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zymro.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zyqp9.com,🆎 AdBlock
  - DOMAIN-SUFFIX,zyrfanli.com,🆎 AdBlock
@@ -7222,6 +7337,7 @@ rules:
  - DOMAIN-SUFFIX,6pal.consobaby.com,🆎 AdBlock
  - DOMAIN-SUFFIX,7lbd4.armandthiery.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,7mx.eider.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,7q1z79gxsi.global.ssl.fastly.net,🆎 AdBlock
  - DOMAIN-SUFFIX,913nd.dieti-natura.es,🆎 AdBlock
  - DOMAIN-SUFFIX,a.20minutes.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,a.mobify.com,🆎 AdBlock
@@ -7369,6 +7485,7 @@ rules:
  - DOMAIN-SUFFIX,analytics.logsss.com,🆎 AdBlock
  - DOMAIN-SUFFIX,analytics.mailmunch.co,🆎 AdBlock
  - DOMAIN-SUFFIX,analytics.matchbin.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,analytics.mbga.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,analytics.meaww.com,🆎 AdBlock
  - DOMAIN-SUFFIX,analytics.meituan.net,🆎 AdBlock
  - DOMAIN-SUFFIX,analytics.midwesternmac.com,🆎 AdBlock
@@ -7473,7 +7590,6 @@ rules:
  - DOMAIN-SUFFIX,anti-bot.baidu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ape-tagit.timeinc.net,🆎 AdBlock
  - DOMAIN-SUFFIX,apester.com/event,🆎 AdBlock
- - DOMAIN-SUFFIX,api-location-prd.pelcro.com,🆎 AdBlock
  - DOMAIN-SUFFIX,api.nobeta.com.br,🆎 AdBlock
  - DOMAIN-SUFFIX,api.wipmania.com,🆎 AdBlock
  - DOMAIN-SUFFIX,apple.www.letv.com,🆎 AdBlock
@@ -7485,7 +7601,6 @@ rules:
  - DOMAIN-SUFFIX,as.mytoys.de,🆎 AdBlock
  - DOMAIN-SUFFIX,as.payback.it,🆎 AdBlock
  - DOMAIN-SUFFIX,as.yomonda.de,🆎 AdBlock
- - DOMAIN-SUFFIX,as01.overbuff.com,🆎 AdBlock
  - DOMAIN-SUFFIX,aserve.directorym.com,🆎 AdBlock
  - DOMAIN-SUFFIX,asianimage-gb.asianimage.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,astat.nikkei.com,🆎 AdBlock
@@ -7565,6 +7680,7 @@ rules:
  - DOMAIN-SUFFIX,beacon.tingyun.com,🆎 AdBlock
  - DOMAIN-SUFFIX,beacon.toyota.co.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,beacon.viewlift.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,beacon.watch.impress.co.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,beacon.wikia-services.com,🆎 AdBlock
  - DOMAIN-SUFFIX,beacon.www.theguardian.com,🆎 AdBlock
  - DOMAIN-SUFFIX,beacon2.indieclick.com,🆎 AdBlock
@@ -7623,6 +7739,8 @@ rules:
  - DOMAIN-SUFFIX,bulb.76.my,🆎 AdBlock
  - DOMAIN-SUFFIX,burnhamandhighbridgeweeklynews-gb.burnhamandhighbridgeweeklynews.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,burytimes-gb.burytimes.co.uk,🆎 AdBlock
+ - DOMAIN-SUFFIX,bvr.ast.snva.jp,🆎 AdBlock
+ - DOMAIN-SUFFIX,bvr.snva.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,bzclk.baidu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,c.bigmir.net,🆎 AdBlock
  - DOMAIN-SUFFIX,c.gazetevatan.com,🆎 AdBlock
@@ -7743,6 +7861,7 @@ rules:
  - DOMAIN-SUFFIX,cnstats.cdev.eu,🆎 AdBlock
  - DOMAIN-SUFFIX,cnt.3dmy.net,🆎 AdBlock
  - DOMAIN-SUFFIX,cnt.iceporn.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,cnt.krasland.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,cnt.logoslovo.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,cnt.mastorage.net,🆎 AdBlock
  - DOMAIN-SUFFIX,cnt.nicemix.com,🆎 AdBlock
@@ -7797,6 +7916,7 @@ rules:
  - DOMAIN-SUFFIX,contadores.miarroba.es,🆎 AdBlock
  - DOMAIN-SUFFIX,contents-tracking.beop.io,🆎 AdBlock
  - DOMAIN-SUFFIX,conversions.genieventures.co.uk,🆎 AdBlock
+ - DOMAIN-SUFFIX,cookie.sync.usonar.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,cookies.livepartners.com,🆎 AdBlock
  - DOMAIN-SUFFIX,cookies.reedbusiness.nl,🆎 AdBlock
  - DOMAIN-SUFFIX,cookietracker.cloudapp.net,🆎 AdBlock
@@ -7826,6 +7946,7 @@ rules:
  - DOMAIN-SUFFIX,counter.bloke.com,🆎 AdBlock
  - DOMAIN-SUFFIX,counter.cam-content.com,🆎 AdBlock
  - DOMAIN-SUFFIX,counter.cnw.cz,🆎 AdBlock
+ - DOMAIN-SUFFIX,counter.digits.com,🆎 AdBlock
  - DOMAIN-SUFFIX,counter.drom.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,counter.entertainmentwise.com,🆎 AdBlock
  - DOMAIN-SUFFIX,counter.hackers.lv,🆎 AdBlock
@@ -7930,6 +8051,7 @@ rules:
  - DOMAIN-SUFFIX,dejavu.mercadolivre.com.br,🆎 AdBlock
  - DOMAIN-SUFFIX,deliver.oztam.com.au,🆎 AdBlock
  - DOMAIN-SUFFIX,deliver.ptgncdn.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,delivery.satr.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,desa.fkapi.net,🆎 AdBlock
  - DOMAIN-SUFFIX,desb.fkapi.net,🆎 AdBlock
  - DOMAIN-SUFFIX,desr.fkapi.net,🆎 AdBlock
@@ -7958,7 +8080,6 @@ rules:
  - DOMAIN-SUFFIX,docileyellow.club,🆎 AdBlock
  - DOMAIN-SUFFIX,dorsetecho-gb.dorsetecho.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,dot-stat.radikal.ru,🆎 AdBlock
- - DOMAIN-SUFFIX,dot.wp.pl,🆎 AdBlock
  - DOMAIN-SUFFIX,dp.shoprunner.com,🆎 AdBlock
  - DOMAIN-SUFFIX,dpm.bluray-disc.de,🆎 AdBlock
  - DOMAIN-SUFFIX,droitwichadvertiser-gb.droitwichadvertiser.co.uk,🆎 AdBlock
@@ -8066,6 +8187,11 @@ rules:
  - DOMAIN-SUFFIX,etacontent.com,🆎 AdBlock
  - DOMAIN-SUFFIX,etui.fs.ml.com,🆎 AdBlock
  - DOMAIN-SUFFIX,eu.groupondata.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,eu1l.dotabuff.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,eu1l.overbuff.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,eu1l.speedrun.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,eu1l.trackdota.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,eu1l.valorbuff.com,🆎 AdBlock
  - DOMAIN-SUFFIX,eulerian.belambra.be,🆎 AdBlock
  - DOMAIN-SUFFIX,eulerian.belambra.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,eulerian.brandalley.fr,🆎 AdBlock
@@ -8090,6 +8216,7 @@ rules:
  - DOMAIN-SUFFIX,event.dkb.de,🆎 AdBlock
  - DOMAIN-SUFFIX,event.getblue.io,🆎 AdBlock
  - DOMAIN-SUFFIX,event.syndigo.cloud,🆎 AdBlock
+ - DOMAIN-SUFFIX,event.webcollage.net,🆎 AdBlock
  - DOMAIN-SUFFIX,eventapi.libring.com,🆎 AdBlock
  - DOMAIN-SUFFIX,eventgateway.soundcloud.com,🆎 AdBlock
  - DOMAIN-SUFFIX,eventlog.inspsearchapi.com,🆎 AdBlock
@@ -8195,6 +8322,7 @@ rules:
  - DOMAIN-SUFFIX,g5150192710.co,🆎 AdBlock
  - DOMAIN-SUFFIX,g5348277045.co,🆎 AdBlock
  - DOMAIN-SUFFIX,g5546361380.co,🆎 AdBlock
+ - DOMAIN-SUFFIX,g5744445715.co,🆎 AdBlock
  - DOMAIN-SUFFIX,ga-beacon.appspot.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ga.canoe.ca,🆎 AdBlock
  - DOMAIN-SUFFIX,ga.kvideo.io,🆎 AdBlock
@@ -8254,7 +8382,6 @@ rules:
  - DOMAIN-SUFFIX,gets.faz.net,🆎 AdBlock
  - DOMAIN-SUFFIX,gj.mmstat.com,🆎 AdBlock
  - DOMAIN-SUFFIX,gjr5.yoigo.com,🆎 AdBlock
- - DOMAIN-SUFFIX,gk3o.trackdota.com,🆎 AdBlock
  - DOMAIN-SUFFIX,glasgowtimes-gb.glasgowtimes.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,glassmoni.researchgate.net,🆎 AdBlock
  - DOMAIN-SUFFIX,glbdns.microsoft.com,🆎 AdBlock
@@ -8346,6 +8473,7 @@ rules:
  - DOMAIN-SUFFIX,informers.sinoptik.ua,🆎 AdBlock
  - DOMAIN-SUFFIX,inquiries.redhat.com,🆎 AdBlock
  - DOMAIN-SUFFIX,insight.fonecta.fi,🆎 AdBlock
+ - DOMAIN-SUFFIX,insights.algolia.io,🆎 AdBlock
  - DOMAIN-SUFFIX,insights.cdt.ch,🆎 AdBlock
  - DOMAIN-SUFFIX,insights.sitesearch360.com,🆎 AdBlock
  - DOMAIN-SUFFIX,insitez.blob.core.windows.net,🆎 AdBlock
@@ -8364,16 +8492,19 @@ rules:
  - DOMAIN-SUFFIX,irqs.ioam.de,🆎 AdBlock
  - DOMAIN-SUFFIX,is.base.de,🆎 AdBlock
  - DOMAIN-SUFFIX,itracking.fccinteractive.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,jac.yahoosandbox.com,🆎 AdBlock
  - DOMAIN-SUFFIX,javascriptcounter.appspot.com,🆎 AdBlock
  - DOMAIN-SUFFIX,jelly.mdhv.io,🆎 AdBlock
+ - DOMAIN-SUFFIX,jen.jiji.com,🆎 AdBlock
  - DOMAIN-SUFFIX,jppolid-track.trackprod.integration.jppol.dk,🆎 AdBlock
+ - DOMAIN-SUFFIX,k.kolplay.com,🆎 AdBlock
  - DOMAIN-SUFFIX,k.rueducommerce.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,k.streamrail.com,🆎 AdBlock
- - DOMAIN-SUFFIX,k9v7.dotabuff.com,🆎 AdBlock
  - DOMAIN-SUFFIX,kalstats.kaltura.com,🆎 AdBlock
  - DOMAIN-SUFFIX,kbn.korben.info,🆎 AdBlock
  - DOMAIN-SUFFIX,keighleynews-gb.keighleynews.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,keyword.daumdn.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,keywords.complex.com,🆎 AdBlock
  - DOMAIN-SUFFIX,kidderminstershuttle-gb.kidderminstershuttle.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,kiks.auto.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,kinesisproxy.hearstlabs.com,🆎 AdBlock
@@ -8448,6 +8579,7 @@ rules:
  - DOMAIN-SUFFIX,log.outbrain.com,🆎 AdBlock
  - DOMAIN-SUFFIX,log.outbrainimg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,log.pinterest.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,log.plinga.de,🆎 AdBlock
  - DOMAIN-SUFFIX,log.popin.cc,🆎 AdBlock
  - DOMAIN-SUFFIX,log.prezi.com,🆎 AdBlock
  - DOMAIN-SUFFIX,log.ren.tv,🆎 AdBlock
@@ -8548,6 +8680,7 @@ rules:
  - DOMAIN-SUFFIX,metrics.ctvdigital.net,🆎 AdBlock
  - DOMAIN-SUFFIX,metrics.ee.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,metrics.extremetech.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,metrics.getvitals.io,🆎 AdBlock
  - DOMAIN-SUFFIX,metrics.n-tv.de,🆎 AdBlock
  - DOMAIN-SUFFIX,metrics.readme.io,🆎 AdBlock
  - DOMAIN-SUFFIX,metrics.scribblelive.com,🆎 AdBlock
@@ -8605,12 +8738,12 @@ rules:
  - DOMAIN-SUFFIX,morozhko.club,🆎 AdBlock
  - DOMAIN-SUFFIX,mors22.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mqs.ioam.de,🆎 AdBlock
- - DOMAIN-SUFFIX,mqzy.dotabuff.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ms-apps.haaretz.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ms.computerbild.de,🆎 AdBlock
  - DOMAIN-SUFFIX,msg.71.am,🆎 AdBlock
  - DOMAIN-SUFFIX,mtag.mman.kr,🆎 AdBlock
  - DOMAIN-SUFFIX,mtc.nhk.or.jp,🆎 AdBlock
+ - DOMAIN-SUFFIX,mtrcs.samba.tv,🆎 AdBlock
  - DOMAIN-SUFFIX,mts-ws.rueducommerce.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,muatui.com,🆎 AdBlock
  - DOMAIN-SUFFIX,mv.treehousei.com,🆎 AdBlock
@@ -8632,8 +8765,6 @@ rules:
  - DOMAIN-SUFFIX,nexttime.ovh,🆎 AdBlock
  - DOMAIN-SUFFIX,nil.naver.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ninja.akamaized.net,🆎 AdBlock
- - DOMAIN-SUFFIX,nj1r.valorbuff.com,🆎 AdBlock
- - DOMAIN-SUFFIX,nkeq.speedrun.com,🆎 AdBlock
  - DOMAIN-SUFFIX,nm.newegg.com,🆎 AdBlock
  - DOMAIN-SUFFIX,nmtracking.netflix.com,🆎 AdBlock
  - DOMAIN-SUFFIX,noa0.compteczam.fr,🆎 AdBlock
@@ -8643,7 +8774,6 @@ rules:
  - DOMAIN-SUFFIX,nova.dice.net,🆎 AdBlock
  - DOMAIN-SUFFIX,nrg.red-by-sfr.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,ns.rvmkitt.com,🆎 AdBlock
- - DOMAIN-SUFFIX,nvea.valorbuff.com,🆎 AdBlock
  - DOMAIN-SUFFIX,nws.naltis.com,🆎 AdBlock
  - DOMAIN-SUFFIX,nxakpj4ac8gkd53.info,🆎 AdBlock
  - DOMAIN-SUFFIX,o.addthis.com,🆎 AdBlock
@@ -8683,6 +8813,7 @@ rules:
  - DOMAIN-SUFFIX,p.aty.sohu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,p.eyebuydirect-cmr.net,🆎 AdBlock
  - DOMAIN-SUFFIX,p.gazeta.pl,🆎 AdBlock
+ - DOMAIN-SUFFIX,p.kolplay.com,🆎 AdBlock
  - DOMAIN-SUFFIX,p.milliyet.com.tr,🆎 AdBlock
  - DOMAIN-SUFFIX,p.pagesjaunes.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,p.tencentmind.com,🆎 AdBlock
@@ -8800,7 +8931,7 @@ rules:
  - DOMAIN-SUFFIX,postpixel.vindicosuite.com,🆎 AdBlock
  - DOMAIN-SUFFIX,powercount.jswelt.de,🆎 AdBlock
  - DOMAIN-SUFFIX,powersearch.us.com,🆎 AdBlock
- - DOMAIN-SUFFIX,pqoz.trackdota.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,pr.ameba.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,pr.blogflux.com,🆎 AdBlock
  - DOMAIN-SUFFIX,prd-collector-anon.ex.co,🆎 AdBlock
  - DOMAIN-SUFFIX,prd-collector-anon.playbuzz.com,🆎 AdBlock
@@ -8847,13 +8978,13 @@ rules:
  - DOMAIN-SUFFIX,pxc.otto.de,🆎 AdBlock
  - DOMAIN-SUFFIX,qubitanalytics.appspot.com,🆎 AdBlock
  - DOMAIN-SUFFIX,r.bbci.co.uk,🆎 AdBlock
- - DOMAIN-SUFFIX,r.mail.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,r.msn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,r.my.com,🆎 AdBlock
  - DOMAIN-SUFFIX,r.sax.sina.com.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,radar.imgsmail.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,ramp.purch.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rand.com.ru,🆎 AdBlock
+ - DOMAIN-SUFFIX,ranking.apis.sankei-digital.co.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,rat.rakuten.co.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,rbc.magna.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,rc.rlcdn.com,🆎 AdBlock
@@ -8864,6 +8995,7 @@ rules:
  - DOMAIN-SUFFIX,rd.alice.it,🆎 AdBlock
  - DOMAIN-SUFFIX,rdtdlv.laredoute.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,reachandrich.antevenio.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,realm.hearst3pcc.com,🆎 AdBlock
  - DOMAIN-SUFFIX,reauthenticator.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rec-pl.quartic.pl,🆎 AdBlock
  - DOMAIN-SUFFIX,rec.udn.com,🆎 AdBlock
@@ -8873,6 +9005,7 @@ rules:
  - DOMAIN-SUFFIX,redeye.williamhill.com,🆎 AdBlock
  - DOMAIN-SUFFIX,redhillandreigatelife-gb.redhillandreigatelife.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,ref.dealerinspire.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,refer.ccbill.com,🆎 AdBlock
  - DOMAIN-SUFFIX,referer.pixplug.in,🆎 AdBlock
  - DOMAIN-SUFFIX,referrer.disqus.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rek.www.wp.pl,🆎 AdBlock
@@ -8914,6 +9047,7 @@ rules:
  - DOMAIN-SUFFIX,rt.flix360.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rt.prnewswire.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rta2.metro.co.uk,🆎 AdBlock
+ - DOMAIN-SUFFIX,rtg-endpoint.global.ssl.fastly.net,🆎 AdBlock
  - DOMAIN-SUFFIX,rtn.thestar.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rtt.campanja.com,🆎 AdBlock
  - DOMAIN-SUFFIX,rum.azion.com,🆎 AdBlock
@@ -9003,6 +9137,7 @@ rules:
  - DOMAIN-SUFFIX,sourcepoint-mms.aetv.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sourcepoint-mms.history.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sourcepoint-mms.mylifetime.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,sourcepoint.dexerto.com,🆎 AdBlock
  - DOMAIN-SUFFIX,sourcepoint.vice.com,🆎 AdBlock
  - DOMAIN-SUFFIX,southendstandard-gb.southendstandard.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,southwalesargus-gb.southwalesargus.co.uk,🆎 AdBlock
@@ -9419,6 +9554,8 @@ rules:
  - DOMAIN-SUFFIX,tag.aumago.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tag.boulanger.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,tag.brandcdn.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,tag.cribnotes.jp,🆎 AdBlock
+ - DOMAIN-SUFFIX,tag.elevaate.io,🆎 AdBlock
  - DOMAIN-SUFFIX,tag.goldenbees.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,tag.leadplace.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,tag.myplay.com,🆎 AdBlock
@@ -9437,6 +9574,7 @@ rules:
  - DOMAIN-SUFFIX,tags.newscgp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tags.op-palvelut.fi,🆎 AdBlock
  - DOMAIN-SUFFIX,tags.refinery89.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,tagtracking.vibescm.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tagx.nytimes.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tantrumall.club,🆎 AdBlock
  - DOMAIN-SUFFIX,target.mirtesen.ru,🆎 AdBlock
@@ -9468,6 +9606,8 @@ rules:
  - DOMAIN-SUFFIX,te.mytoys.de,🆎 AdBlock
  - DOMAIN-SUFFIX,te.supportfreecontent.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ted.metro.co.uk,🆎 AdBlock
+ - DOMAIN-SUFFIX,telemetrics.klaviyo.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,telemetry.api.wmcdp.io,🆎 AdBlock
  - DOMAIN-SUFFIX,telemetry.art19.com,🆎 AdBlock
  - DOMAIN-SUFFIX,telemetry.jivosite.com,🆎 AdBlock
  - DOMAIN-SUFFIX,telemetry.reembed.com,🆎 AdBlock
@@ -9509,6 +9649,7 @@ rules:
  - DOMAIN-SUFFIX,tms.eharmony.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,tnla.thenewslens.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tns.simba.taobao.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,to.getnitropack.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tongji.mafengwo.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,tongji.meizu.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tools.ranker.com,🆎 AdBlock
@@ -9529,6 +9670,7 @@ rules:
  - DOMAIN-SUFFIX,tr.marsflag.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tr.n2.hk,🆎 AdBlock
  - DOMAIN-SUFFIX,tr.price.com.hk,🆎 AdBlock
+ - DOMAIN-SUFFIX,tr.reco.combz.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,tr.snapchat.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tr.webantenna.info,🆎 AdBlock
  - DOMAIN-SUFFIX,tr.werkenntwen.de,🆎 AdBlock
@@ -9695,6 +9837,7 @@ rules:
  - DOMAIN-SUFFIX,tracking.g2crowd.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.gameforge.de,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.godatafeed.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,tracking.gpm-rtv.ru,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.gruppo.mps.it,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.ha.rueducommerce.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.hannoversche.de,🆎 AdBlock
@@ -9741,7 +9884,9 @@ rules:
  - DOMAIN-SUFFIX,tracking.rightmessage.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.rtl.de,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.s24.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,tracking.scenepass.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.searchmarketing.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,tracking.sezzle.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.shopstyle.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.shoptogether.buy.com,🆎 AdBlock
  - DOMAIN-SUFFIX,tracking.smartmeapp.com,🆎 AdBlock
@@ -9804,7 +9949,9 @@ rules:
  - DOMAIN-SUFFIX,trowel.twitch.tv,🆎 AdBlock
  - DOMAIN-SUFFIX,tru.webelapp.com,🆎 AdBlock
  - DOMAIN-SUFFIX,trueffect.underarmour.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,trusted-web-seal.cybertrust.ne.jp,🆎 AdBlock
  - DOMAIN-SUFFIX,trx.smdatalabs.com,🆎 AdBlock
+ - DOMAIN-SUFFIX,trx3.famousfix.com,🆎 AdBlock
  - DOMAIN-SUFFIX,ts.faz.net,🆎 AdBlock
  - DOMAIN-SUFFIX,ts.rtl.de,🆎 AdBlock
  - DOMAIN-SUFFIX,ts.tradetracker.net,🆎 AdBlock
@@ -9855,7 +10002,6 @@ rules:
  - DOMAIN-SUFFIX,utrack.hexun.com,🆎 AdBlock
  - DOMAIN-SUFFIX,uts.auction.co.kr,🆎 AdBlock
  - DOMAIN-SUFFIX,uue2.destinia.ir,🆎 AdBlock
- - DOMAIN-SUFFIX,uuqz.overbuff.com,🆎 AdBlock
  - DOMAIN-SUFFIX,v.emedia.cn,🆎 AdBlock
  - DOMAIN-SUFFIX,v.oui.sncf,🆎 AdBlock
  - DOMAIN-SUFFIX,v.shopify.com,🆎 AdBlock
@@ -9904,6 +10050,7 @@ rules:
  - DOMAIN-SUFFIX,vtf2f.banque-casino.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,vtrtl.de,🆎 AdBlock
  - DOMAIN-SUFFIX,vv.ricardo.ch,🆎 AdBlock
+ - DOMAIN-SUFFIX,w88.espn.com,🆎 AdBlock
  - DOMAIN-SUFFIX,wa.gmx.fr,🆎 AdBlock
  - DOMAIN-SUFFIX,wa.metro.co.uk,🆎 AdBlock
  - DOMAIN-SUFFIX,wa.ui-portal.de,🆎 AdBlock
@@ -10123,8 +10270,6 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
  - DOMAIN-SUFFIX,sony.com,🎮 游戏平台
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
- - PROCESS-NAME,Telegram.exe,📲 电报消息
- - PROCESS-NAME,org.telegram.messenger,📲 电报消息
  - DOMAIN-SUFFIX,t.me,📲 电报消息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报消息
  - DOMAIN-SUFFIX,telegra.ph,📲 电报消息
@@ -10172,12 +10317,13 @@ rules:
  - DOMAIN-KEYWORD,youtube,📹 油管视频
  - DOMAIN,youtubei.googleapis.com,📹 油管视频
  - DOMAIN,yt3.ggpht.com,📹 油管视频
- - DOMAIN-SUFFIX,app-measurement.com,📹 油管视频
  - DOMAIN-SUFFIX,googlevideo.com,📹 油管视频
  - DOMAIN-SUFFIX,gvt2.com,📹 油管视频
  - DOMAIN-SUFFIX,youtu.be,📹 油管视频
  - DOMAIN-SUFFIX,youtube.com,📹 油管视频
  - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
+ - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🎥 奈飞视频
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 奈飞视频
  - DOMAIN,netflix.com.edgesuite.net,🎥 奈飞视频
  - DOMAIN-SUFFIX,fast.com,🎥 奈飞视频
  - DOMAIN-SUFFIX,netflix.com,🎥 奈飞视频
@@ -10267,11 +10413,20 @@ rules:
  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
  - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
  - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
- - DOMAIN-KEYWORD,qiyi,🌏 国内媒体
- - DOMAIN-SUFFIX,qy.net,🌏 国内媒体
- - IP-CIDR,101.224.0.0/13,🌏 国内媒体,no-resolve
- - IP-CIDR,101.227.0.0/16,🌏 国内媒体,no-resolve
- - IP-CIDR,119.176.0.0/12,🌏 国内媒体,no-resolve
+ - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
+ - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
+ - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
+ - DOMAIN,intl-subscription.iqiyi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,inter.iqiyi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,intl.iqiyi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,iq.com,🌏 国内媒体
+ - IP-CIDR,23.40.241.251/32,🌏 国内媒体,no-resolve
+ - IP-CIDR,23.40.242.10/32,🌏 国内媒体,no-resolve
+ - IP-CIDR,103.44.56.0/22,🌏 国内媒体,no-resolve
+ - IP-CIDR,118.26.32.0/23,🌏 国内媒体,no-resolve
+ - IP-CIDR,118.26.120.0/24,🌏 国内媒体,no-resolve
+ - IP-CIDR,223.119.62.225/28,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
@@ -10317,6 +10472,9 @@ rules:
  - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,amplify.outbrain.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,bluekai.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cdn.cookielaw.org,🌍 国外媒体
  - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
@@ -10328,25 +10486,27 @@ rules:
  - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dcalivedazn.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,docomo.ne.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
- - DOMAIN-SUFFIX,logx.optimizely.com,🌍 国外媒体
- - DOMAIN-SUFFIX,onboarding.indazn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,pubby.indazn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,rail.discovery.indazn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,pause-confirmed-marketing-images-prod.s3.eu-central-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,perfops.doracdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,rest.zuora.com,🌍 国外媒体
  - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
  - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
- - DOMAIN-SUFFIX,bam.nr-date.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bamgrid.com,🌍 国外媒体
  - DOMAIN-SUFFIX,braze.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cdn.optimizely.com,🌍 国外媒体
  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cdn.unid.go.com,🌍 国外媒体
- - DOMAIN-SUFFIX,conviva.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
  - DOMAIN-SUFFIX,d9.flashtalking.com,🌍 国外媒体
  - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🌍 国外媒体
@@ -10354,6 +10514,7 @@ rules:
  - DOMAIN-SUFFIX,disney.my.sentry.io,🌍 国外媒体
  - DOMAIN-SUFFIX,disneyplus.bn5x.net,🌍 国外媒体
  - DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🌍 国外媒体
  - DOMAIN-SUFFIX,disneystreaming.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
@@ -10376,6 +10537,8 @@ rules:
  - DOMAIN-SUFFIX,akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,foxplus.com,🌍 国外媒体
  - DOMAIN-SUFFIX,theplatform.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
  - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
@@ -10385,6 +10548,8 @@ rules:
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,manifest.prod.boltdns.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -10400,11 +10565,18 @@ rules:
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,huluad.com,🌍 国外媒体
  - DOMAIN-SUFFIX,huluim.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulustream.com,🌍 国外媒体
  - DOMAIN-SUFFIX,happyon.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
  - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
  - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
@@ -10435,8 +10607,12 @@ rules:
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
  - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
+ - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
+ - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🌍 国外媒体
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
  - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
@@ -10479,7 +10655,6 @@ rules:
  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
  - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,socdm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
  - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
  - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
@@ -10535,7 +10710,6 @@ rules:
  - DOMAIN-KEYWORD,youtube,🌍 国外媒体
  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
- - DOMAIN-SUFFIX,app-measurement.com,🌍 国外媒体
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
@@ -16257,12 +16431,19 @@ rules:
  - DOMAIN-SUFFIX,ypncdn.com,🔰 节点选择
  - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
  - DOMAIN-SUFFIX,pximg.net,🔰 节点选择
+ - DOMAIN-SUFFIX,amplitude.com,🔰 节点选择
+ - DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hockeyapp.net,🔰 节点选择
+ - DOMAIN-SUFFIX,readdle.com,🔰 节点选择
+ - DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
  - DOMAIN-SUFFIX,fanatical.com,🔰 节点选择
  - DOMAIN-SUFFIX,humblebundle.com,🔰 节点选择
  - DOMAIN-SUFFIX,steam-chat.com,🔰 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择
  - DOMAIN-SUFFIX,steampowered.com,🔰 节点选择
  - DOMAIN-SUFFIX,steamstatic.com,🔰 节点选择
+ - DOMAIN-SUFFIX,tap.io,🔰 节点选择
+ - DOMAIN-SUFFIX,taptap.tw,🔰 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🔰 节点选择
  - DOMAIN-SUFFIX,ttvnw.net,🔰 节点选择
  - DOMAIN-SUFFIX,jtvnw.net,🔰 节点选择
@@ -16546,10 +16727,6 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
- - DOMAIN-SUFFIX,amplitude.com,🎯 全球直连
- - DOMAIN-SUFFIX,firebaseio.com,🎯 全球直连
- - DOMAIN-SUFFIX,hockeyapp.net,🎯 全球直连
- - DOMAIN-SUFFIX,smartmailcloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
  - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
@@ -16615,6 +16792,7 @@ rules:
  - DOMAIN-KEYWORD,announce,🎯 全球直连
  - DOMAIN-KEYWORD,torrent,🎯 全球直连
  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
