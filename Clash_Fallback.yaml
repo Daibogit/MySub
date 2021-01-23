@@ -16366,6 +16366,24 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
  - IP-CIDR,74.125.0.0/16,🔰 节点选择,no-resolve
  - IP-CIDR,173.194.0.0/16,🔰 节点选择,no-resolve
+ - IP-CIDR,120.232.181.162/32,🔰 节点选择,no-resolve
+ - IP-CIDR,120.241.147.226/32,🔰 节点选择,no-resolve
+ - IP-CIDR,120.253.253.226/32,🔰 节点选择,no-resolve
+ - IP-CIDR,120.253.255.162/32,🔰 节点选择,no-resolve
+ - IP-CIDR,120.253.255.34/32,🔰 节点选择,no-resolve
+ - IP-CIDR,120.253.255.98/32,🔰 节点选择,no-resolve
+ - IP-CIDR,180.163.150.162/32,🔰 节点选择,no-resolve
+ - IP-CIDR,180.163.150.34/32,🔰 节点选择,no-resolve
+ - IP-CIDR,180.163.151.162/32,🔰 节点选择,no-resolve
+ - IP-CIDR,180.163.151.34/32,🔰 节点选择,no-resolve
+ - IP-CIDR,203.208.39.0/24,🔰 节点选择,no-resolve
+ - IP-CIDR,203.208.40.0/24,🔰 节点选择,no-resolve
+ - IP-CIDR,203.208.41.0/24,🔰 节点选择,no-resolve
+ - IP-CIDR,203.208.43.0/24,🔰 节点选择,no-resolve
+ - IP-CIDR,203.208.50.0/24,🔰 节点选择,no-resolve
+ - IP-CIDR,220.181.174.162/32,🔰 节点选择,no-resolve
+ - IP-CIDR,220.181.174.226/32,🔰 节点选择,no-resolve
+ - IP-CIDR,220.181.174.34/32,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
  - DOMAIN-SUFFIX,instagram.com,🔰 节点选择
  - DOMAIN-SUFFIX,instagr.am,🔰 节点选择
@@ -16495,24 +16513,6 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🔰 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🔰 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🔰 节点选择
- - IP-CIDR,120.232.181.162/32,🔰 节点选择,no-resolve
- - IP-CIDR,120.241.147.226/32,🔰 节点选择,no-resolve
- - IP-CIDR,120.253.253.226/32,🔰 节点选择,no-resolve
- - IP-CIDR,120.253.255.162/32,🔰 节点选择,no-resolve
- - IP-CIDR,120.253.255.34/32,🔰 节点选择,no-resolve
- - IP-CIDR,120.253.255.98/32,🔰 节点选择,no-resolve
- - IP-CIDR,180.163.150.162/32,🔰 节点选择,no-resolve
- - IP-CIDR,180.163.150.34/32,🔰 节点选择,no-resolve
- - IP-CIDR,180.163.151.162/32,🔰 节点选择,no-resolve
- - IP-CIDR,180.163.151.34/32,🔰 节点选择,no-resolve
- - IP-CIDR,203.208.39.0/24,🔰 节点选择,no-resolve
- - IP-CIDR,203.208.40.0/24,🔰 节点选择,no-resolve
- - IP-CIDR,203.208.41.0/24,🔰 节点选择,no-resolve
- - IP-CIDR,203.208.43.0/24,🔰 节点选择,no-resolve
- - IP-CIDR,203.208.50.0/24,🔰 节点选择,no-resolve
- - IP-CIDR,220.181.174.162/32,🔰 节点选择,no-resolve
- - IP-CIDR,220.181.174.226/32,🔰 节点选择,no-resolve
- - IP-CIDR,220.181.174.34/32,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
