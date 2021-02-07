@@ -64,7 +64,7 @@ proxy-providers:
   Mynodes:
     type: http
     path: proxy-providers/Mynodes.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=CN,TW,SG,CH,DE,GB
+    url: https://free.dswang.ga/clash/proxies?c=CN,TW,SG,CH,DE,GB
     interval: 86400
     health-check:
       enable: true
@@ -73,7 +73,7 @@ proxy-providers:
   HK:
     type: http
     path: proxy-providers/HK.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=HK
+    url: https://free.dswang.ga/clash/proxies?c=HK
     interval: 86400
     health-check:
       enable: true
@@ -82,7 +82,7 @@ proxy-providers:
   TW:
     type: http
     path: proxy-providers/TW.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=TW
+    url: https://free.dswang.ga/clash/proxies?c=TW
     interval: 86400
     health-check:
       enable: true
@@ -91,7 +91,7 @@ proxy-providers:
   SG:
     type: http
     path: proxy-providers/SG.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=SG
+    url: https://free.dswang.ga/clash/proxies?c=SG
     interval: 86400
     health-check:
       enable: true
@@ -100,7 +100,7 @@ proxy-providers:
   JP:
     type: http
     path: proxy-providers/JP.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=JP
+    url: https://free.dswang.ga/clash/proxies?c=JP
     interval: 86400
     health-check:
       enable: true
@@ -109,7 +109,7 @@ proxy-providers:
   US:
     type: http
     path: proxy-providers/US.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=US
+    url: https://free.dswang.ga/clash/proxies?c=US
     interval: 86400
     health-check:
       enable: true
@@ -118,7 +118,7 @@ proxy-providers:
   RU:
     type: http
     path: proxy-providers/RU.yaml
-    url: https://proxypoolss.tk/clash/proxies?c=RU
+    url: https://free.dswang.ga/clash/proxies?c=RU
     interval: 86400
     health-check:
       enable: true
