@@ -223,7 +223,7 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml
     path: ./providers/rule-provider_Bahamut.yaml
-      Bilibili:
+  Bilibili:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.yaml
