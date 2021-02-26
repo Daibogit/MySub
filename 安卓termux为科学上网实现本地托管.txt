@@ -1,4 +1,4 @@
-一、安卓利用Termux本地订阅实例：
+方式一、安卓利用Termux本地订阅实例：
 Termux下载地址 https://f-droid.org/packages/com.termux/
 利用proot工具来模拟某些需要root的环境：相当于进入到home目录,即termux的/data/data/com.termux/files/home
 安装proot环境
@@ -15,6 +15,7 @@ cd subconverter
 
 下次运行：
 termux-chroot
+
 cd subconverter
 ./subconverter
 
@@ -28,9 +29,9 @@ nameserver 8.8.4.4
 
 注：subconverter_aarch64.tar.gz是适用于arm64架构已编译版。如果是a7v架构，则是subconverter_armhf.tar.gz，苹果是subconverter_darwin64.tar.gz
 
-订阅格式 http://0.0.0.0:25500/sub?target=clash&url=[SSR订阅链接]
+clash订阅格式 http://0.0.0.0:25500/sub?target=clash&url=[订阅链接]
 
-http://0.0.0.0:25500/sub?target=clash&url=https://raw.githubusercontent.com/13210541230/subscribe/master/README.md
+如 http://0.0.0.0:25500/sub?target=clash&url=https://raw.githubusercontent.com/13210541230/subscribe/master/README.md
 
 带@等特殊符号的订阅订阅链接预先编码处理 http://www.urlencode.org/
 
@@ -47,7 +48,96 @@ cp subconverter/pref.ini -r -t /storage/emulated/0/download
 编辑后，替换内部./subconverter/pref.ini配置文件
 cp /storage/emulated/0/download/pref.ini -r -t ./subconverter
 
- 二、termux本机编译subconverter
+【进阶配置】
+http://127.0.0.1:25500/sub?target%TARGET%&url=%URL%&config=%CONFIG%
+
+%TARGET%  指想要生成的配置类型
+%URL%  指机场所提供的订阅链接，需要经过 URLEncode 处理。
+%CONFIG%  指远程 pref.ini (包含分组和规则部分)，需要经过 URLEncode 处理
+
+%TARGET%支持类型说明：
+作为源类型	作为目标类型
+clash  quanx(完整配置)  quan(完整配置)  loon   mellow  ss (SIP002)  sssub(软件订阅)
+surfboard  surge&ver=2  surge&ver=3  surge&ver=4  trojan  v2ray
+
+作为源类型
+类 TG 代理的 HTTP/Socks 链接   仅支持 &url= 调用
+tg://http?server=1.2.3.4&port=233&user=user&pass=pass&remarks=Example&group=xxx
+https://t.me/http?server=1.2.3.4&port=233&user=user&pass=pass&remarks=Example&group=xx
+
+作为目标类型
+Mixed  Auto
+
+处理多份订阅
+首先使用 '|' 将两个订阅分隔开:
+https://dler.cloud/subscribe/ABCDE?clash=vmess|https://rich.cloud/subscribe/ABCDE?clash=vmess
+经过 URLEncode 处理填入%URL%  
+
+【调用地址 (进阶)】
+http://127.0.0.1:25500/sub?target=%TARGET%&url=%URL%&emoji=%EMOJI%····
+
+upload_path   用于将生成的订阅文件上传至 Gist 后的名称，需要经过 URLEncode 处理
+include    指仅保留匹配到的节点，支持正则匹配，需要经过 URLEncode 处理，会覆盖配置文件里的设置
+exclude   指排除匹配到的节点，支持正则匹配，需要经过 URLEncode 处理，会覆盖配置文件里的设置
+dev_id      用于设置 QuantumultX 的远程设备 ID, 以在某些版本上开启远程脚本
+filename  指定该链接生成的配置文件的文件名，可以在 Clash For Windows 等支持文件名的软件中显示出来
+interval    用于设置托管配置更新间隔，确定配置将更新多长时间，单位为秒
+rename   用于自定义重命名，需要经过 URLEncode 处理，会覆盖配置文件里的设置
+性	示例	解释
+target	必要	surge&ver=4	指想要生成的配置类型，详见上方 支持类型 中的参数
+url	可选	https%3A%2F%2Fwww.xxx.com	指机场所提供的订阅链接，需要经过 URLEncode 处理，可选的前提是在 default_url 中进行指定。也可以使用 data URI。可使用 tag：xxx，https%3A%2F%2Fwww.xxx.com 指定该订阅的所有节点归属于xxx分组，用于配置文件中的!!GROUP=XXX 匹配
+group	可选	MySS	用于设置该订阅的组名，多用于 SSD/SSR
+upload_path	可选	MySS.yaml	用于将生成的订阅文件上传至 Gist 后的名称，需要经过 URLEncode 处理
+include	可选	详见下文中 include_remarks	指仅保留匹配到的节点，支持正则匹配，需要经过 URLEncode 处理，会覆盖配置文件里的设置
+exclude	可选	详见下文中 exclude_remarks	指排除匹配到的节点，支持正则匹配，需要经过 URLEncode 处理，会覆盖配置文件里的设置
+config	可选	https%3A%2F%2Fwww.xxx.com	指远程 pref.ini (包含分组和规则部分)，需要经过 URLEncode 处理，可查看 示例仓库 寻找灵感，默认加载本地设置文件
+dev_id	可选	92DSAFA	用于设置 QuantumultX 的远程设备 ID, 以在某些版本上开启远程脚本
+filename	可选	MySS	指定该链接生成的配置文件的文件名，可以在 Clash For Windows 等支持文件名的软件中显示出来
+interval	可选	43200	用于设置托管配置更新间隔，确定配置将更新多长时间，单位为秒
+rename	可选	详见下文中 rename	用于自定义重命名，需要经过 URLEncode 处理，会覆盖配置文件里的设置
+filter_script	可选	详见下文中 filter_script	用于自定义筛选节点的js代码，需要经过 URLEncode 处理，会覆盖配置文件里的设置。出于安全考虑，链接需包含正确的 token 参数，才会应用该设置
+strict	如果设置为 true，则 Surge 将在上述间隔后要求强制更新
+upload	用于将生成的订阅文件上传至 Gist，需要填写gistconf.ini，默认为 false (即不上传)
+emoji	用于设置节点名称是否包含 Emoji，默认为 true
+add_emoji	用于在节点名称前加入 Emoji，默认为 true
+remove_emoji  用于设置是否删除节点名称中原有的 Emoji，默认为 true
+append_type	用于在节点名称前插入节点类型，如 [SS],[SSR] 等
+tfo	用于开启该订阅链接的 TCP Fast Open，默认为 false
+udp	用于开启该订阅链接的 UDP，默认为 false
+list	用于输出 Surge Node List 或者 Clash Proxy Provider 或者 Quantumult (X) 的节点订阅 或者 解码后的 SIP002
+sort	用于对输出的节点或策略组按节点名进行再次排序，默认为 false
+sort_script	可选	详见下文 sort_script	用于自定义排序的js代码，需要经过 URLEncode 处理，会覆盖配置文件里的设置。出于安全考虑，链接需包含正确的 token 参数，才会应用该设置
+script	用于生成Clash Script，默认为 false
+insert	用于设置是否将配置文件中的 insert_url 插入，默认为 true
+scv	用于关闭 TLS 节点的证书检查，默认为 false
+fdn	用于过滤目标类型不支持的节点，默认为 true
+expand	用于在 API 端处理或转换 Surge, QuantumultX 的规则列表，即不将规则全文置入配置文件中，默认为 false，设置为 true 则将规则全文写进配置文件
+append_info	用于输出包含流量或到期信息的节点, 默认为 true，设置为 false 则取消输出
+prepend	用于设置插入 insert_url 时是否插入到所有节点前面，默认为 true
+classic	用于设置是否生成 Clash classical rule-provider
+tls13	        用于设置是否为节点增加tls1.3开启参数
+new_name	可选	true / false  如果设置为 true，则将启用 Clash 的新组名称 (proxies, proxy-groups, rules)
+
+【本地生成】
+启动程序后，在本地生成对应的配置文件文本
+
+在程序目录内的 generate.ini 中设定文件块([xxx])，生成的文件名(path=xxx)以及其所需要包含的参数，例如：
+
+[test]
+path=output.conf
+target=surge
+ver=4
+url=ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example
+
+[test_profile]
+path=output.yml
+profile=profiles/example_profile.ini
+使用 subconverter -g 启动本程序时，即可在程序根目录内生成名为 output.conf output.yml 的配置文件文本。
+
+使用 subconverter -g --artifact "test" 启动本程序时，即可在程序根目录内仅生成上述示例
+
+
+ 方式二、termux本机编译subconverter
 
 wget https://github.com/tindy2013/subconverter/archive/v0.5.2.tar.gz && tar -zxvf v0.5.2.tar.gz && cd subconverter-0.5.2 && bash scripts/config.termux.sh
 
@@ -73,7 +163,7 @@ http://127.0.0.1:25500/sub?target=surge&ver=4&tfo=true&udp=true&emoji=true&exclu
 
 
 
-三、termux实现本地托管可自定义配置
+方式三、termux实现本地托管可自定义配置
 
 以下为Android 实现本地diy tindy大佬的托管规则
 打开该app，他会先加载一会，等待几秒钟后出现配置界面
