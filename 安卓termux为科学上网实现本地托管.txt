@@ -11,6 +11,7 @@ tar xvf subconverter_armhf.tar.gz
 cd subconverter
 ./subconverter
 
+上面这是二进制程序运行方式
 最后浏览器打开订阅链接获取配置 http://0.0.0.0:25500/sub?target=clashr&url=http%3A%2F%2F90fq.xyz%2Flink%2FkI3zZYOr3SDDPyX5%3Fmu%3D2
 
 下次运行：
@@ -23,7 +24,12 @@ cd subconverter
 vim resolv.conf 按i键进入编辑
 nameserver 8.8.8.8
 nameserver 8.8.4.4
-粘贴如上dns，按ESC输入:wq后即保存退出。
+
+粘贴如上dns，回车换行，按ESC输入:wq后即保存退出。
+
+说明：:wq 保存后退出     :wq! 强制保存后退出
+            :w 保存但不退出   :q 不保存并退出
+            :q！不保存强制退出
 
 节点获取正常的跳过上面这步骤！
 
@@ -43,12 +49,21 @@ Android6.0以上会弹框确认是否授权,允许授权后Termux可以方便的
 然后选择背景色和字体
 我一般分别为 14 回车 6 回车，点击允许访问存储
 
-先复制内置pref.ini到手机存储下载
+cd到根目录，先复制内置pref.ini到手机存储下载
 cp subconverter/pref.ini -r -t /storage/emulated/0/download
-编辑后，替换内部./subconverter/pref.ini配置文件
+编辑后，再替换内部./subconverter/pref.ini配置文件
 cp /storage/emulated/0/download/pref.ini -r -t ./subconverter
 
+替换本地规则
+cp /storage/emulated/0/download/Clash -r -t ~/subconverter/rules/ACL4SSR
+# 或从git远程替换本地规则(过程需要输入git用户名，输入密码时不可见)
+pkg install git
+rm -rf ~/subconverter/rules/ACL4SSR
+git clone -b master  https://github.com/ACL4SSR/ACL4SSR ~/subconverter/rules/ACL4SSR
+
 【进阶配置】
+推荐远程配置 https://github.com/ACL4SSR/ACL4SSR/tree/master
+
 http://127.0.0.1:25500/sub?target%TARGET%&url=%URL%&config=%CONFIG%
 
 %TARGET%  指想要生成的配置类型
@@ -162,70 +177,7 @@ http://127.0.0.1:25500/sub?target=surge&ver=4&tfo=true&udp=true&emoji=true&exclu
 最后将该链接填写至 Surge 的订阅处就大功告成了。
 
 
-
-方式三、termux实现本地托管可自定义配置
-
-以下为Android 实现本地diy tindy大佬的托管规则
-打开该app，他会先加载一会，等待几秒钟后出现配置界面
-接下来逐步输入以下代码：每个代码记得点回车
-安装curl
-pkg install vim curl wget git
-安装外部存储访问优化
-sh -c "$(curl -fsSL https://github.com/Daibogit/termux-ohmyzsh/raw/master/install.sh)"  
-或者 sh -c "$(curl -fsSL https://html.sqlsec.com/termux-install.sh)"  
-Android6.0以上会弹框确认是否授权,允许授权后Termux可以方便的访问SD卡文件.这个之后要用。
-然后选择背景色和字体
-我一般分别为 14 回车 6 回车
-执行过上面的zsh一键配置脚本后,并且授予文件访问权限的话,会在内部存储生成storage目录，并且生成若干目录，软连接都指向外置存储卡的相应目录，如Download。
-用命令从仓库下载文件
-git clone https://github.com/tindy2013/subconverter.gif
-cd subconverter
-bash scripts/config.termux.sh
-apt install pkg-config
-cmake -DMACOS=on .
-make -j3
-cp -r base/* .
-
-成功后，可以通过命令cd进入当前根目录，再用ls查看根目录存在subconverter目录。
-
-没root的手机
-相对路径需知cd进入当前根目录和.在末尾表示当前根目录和../表示上级目录和./当前目录
-绝对路径/storage/emulated/0/手机存储目录(可通过文件夹属性获知)
-
-1.进入根目录
-cd
-2.通过命令复制内部存储里的subconverter目录下的pref.ini以及simple_base.yml配置文件到download或其它目录以便修改。（有现成的就不用cp了！）
-cp subconverter/pref.ini -r -t /storage/emulated/0/download
-cp subconverter/simple_base.yml -r -t /storage/emulated/0/download
-
-3.删除内部存储subconverter目录的配置文件
-rm -r -f subconverter/pref.ini
-rm -r -f subconverter/simple_base.yml 
-
-4.在download目录修改pref.ini以及simple_base.yml配置文件。
-你可以自定义pref.ini 和rule 将其放到手机 downloads目录，如果要自定义rule需要在pref.ini里clash_rule_base=simple_base.yml  （文件名自己定，这只是例子）
-;Enable generating rules with rulesets
-enabled=false
-里面的分组group等自己改。
-
-5.将修改好的配置文件复制到内部存储subconverter目录或者根目录。
-复制配置文件到内部存储subconverter目录(这里./subconverter不加./也可以)
-cp /storage/emulated/0/download/pref.ini -r -t ./subconverter
-cp /storage/emulated/0/download/simple_base.yml -r -t subconverter
-或复制到手机内部存储根目录
-cp /storage/emulated/0/download/pref.ini -r -t .
-cp /storage/emulated/0/download/simple_base.yml -r -t .
-
-注：已经root的直接修改pref.ini以及simple_base.yml配置文件后，不用cp命令，用re管理器手动复制两个规则文件到内部存储subconverter目录即可！
-        如果你不想自定义规则，以上cp命令忽略。
-
-运行配置
-cd subconverter
-./subconverter
-
-最后浏览器打开订阅链接http://0.0.0.0.1:25500/sub?target=surge&ver=4&tfo=true&udp=true&emoji=true&exclude=%28%E6%B5%81%E9%87%8F%7C%E5%AE%98%E7%BD%91%29&url=https%3A%2F%2Fdler.cloud%2Fsubscribe%2FABCDE%3Fclash%3Dvmess
-
-
+附：
 linux返回上级目录命令：
 cd ..                  返回上一级目录
 
